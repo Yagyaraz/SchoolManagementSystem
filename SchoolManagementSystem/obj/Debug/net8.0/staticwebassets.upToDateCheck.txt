@@ -1,0 +1,105 @@
+wwwroot\favicon.ico
+wwwroot\images\icons\Analytics icon.svg
+wwwroot\images\icons\Assignment icon (1).svg
+wwwroot\images\icons\Assignment icon.svg
+wwwroot\images\icons\Attendance icon.svg
+wwwroot\images\icons\Bogs icon.svg
+wwwroot\images\icons\CAS icon.svg
+wwwroot\images\icons\Change password icon.svg
+wwwroot\images\icons\Check homework icon.svg
+wwwroot\images\icons\Course plan icon.svg
+wwwroot\images\icons\Daily report icon.svg
+wwwroot\images\icons\Document upload icon.svg
+wwwroot\images\icons\Downloads icon.svg
+wwwroot\images\icons\E-Classroom icon.svg
+wwwroot\images\icons\Events icon.svg
+wwwroot\images\icons\Exam icon.svg
+wwwroot\images\icons\Gallery icon.svg
+wwwroot\images\icons\General evaluation icon.svg
+wwwroot\images\icons\GPS tracker icon.svg
+wwwroot\images\icons\Group attendance icon.svg
+wwwroot\images\icons\help icon.svg
+wwwroot\images\icons\Homework icon.svg
+wwwroot\images\icons\Leave notes icon.svg
+wwwroot\images\icons\Ledgers icon.svg
+wwwroot\images\icons\Library icon.svg
+wwwroot\images\icons\Lunch icon.svg
+wwwroot\images\icons\Merit icon.svg
+wwwroot\images\icons\notification icon.svg
+wwwroot\images\icons\Online class icon.svg
+wwwroot\images\icons\QR code.svg
+wwwroot\images\icons\Reading material icon.svg
+wwwroot\images\icons\Records icon.svg
+wwwroot\images\icons\Routine icon.svg
+wwwroot\images\icons\Selective exam.svg
+wwwroot\images\icons\Setup icon.svg
+wwwroot\images\icons\Staff icon.svg
+wwwroot\images\icons\students.svg
+wwwroot\images\icons\Teacher evaluation icon.svg
+wwwroot\images\icons\tool icon.svg
+wwwroot\images\icons\Videos icon.svg
+wwwroot\images\icons\Website icon.svg
+wwwroot\images\logo.png
+wwwroot\images\verve.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\scss\login.scss
+wwwroot\scss\style.css
+wwwroot\scss\style.css.map
+wwwroot\scss\style.scss

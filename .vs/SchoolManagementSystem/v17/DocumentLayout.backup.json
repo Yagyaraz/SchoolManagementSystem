@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\SchoolManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|y:\\schoolmanagementsystem\\schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
+              "ToolTip": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T06:12:12.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

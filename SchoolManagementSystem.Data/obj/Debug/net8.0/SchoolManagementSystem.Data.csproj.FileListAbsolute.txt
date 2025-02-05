@@ -1,0 +1,14 @@
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\bin\Debug\net8.0\SchoolManagementSystem.Data.deps.json
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\bin\Debug\net8.0\SchoolManagementSystem.Data.runtimeconfig.json
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\bin\Debug\net8.0\SchoolManagementSystem.Data.dll
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\bin\Debug\net8.0\SchoolManagementSystem.Data.pdb
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.csproj.AssemblyReference.cache
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.AssemblyInfoInputs.cache
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.AssemblyInfo.cs
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.csproj.CoreCompileInputs.cache
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.dll
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\refint\SchoolManagementSystem.Data.dll
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.pdb
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.genruntimeconfig.cache
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\ref\SchoolManagementSystem.Data.dll
