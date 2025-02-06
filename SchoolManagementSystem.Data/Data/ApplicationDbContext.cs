@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SchoolManagementSystem.Data.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,14 @@ namespace SchoolManagementSystem.Data.Data
         public DbSet<Ward> Ward { get; set; }
         public DbSet<FiscalYear> FiscalYear { get; set; }
         public DbSet<Project> Project { get; set; }
+        public DbSet<Student> Student { get; set; }
+        public DbSet<Student_AccountInfo> StudentAccountInfo { get; set; }
+        public DbSet<Student_Address> StudentAddress { get; set; }
+        public DbSet<Student_AcademicInfo> StudentAcademicInfo { get; set; }
+        public DbSet<Student_ParentsDetails> StudentParentsDetails { get; set; }
+        public DbSet<Student_OtherDetails> StudentOtherDetails { get; set; }
+        public DbSet<PreviousSchoolDetails> PreviousSchoolDetails { get; set; }
+        
 
     }
 }

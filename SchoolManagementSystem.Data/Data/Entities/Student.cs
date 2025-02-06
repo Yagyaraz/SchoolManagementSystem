@@ -21,6 +21,16 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int? BloodGroup { get; set; }
         public string StudentImage { get; set; }
 
+        public string PhoneNumber { get; set; }
+        public int? Nationality { get; set; }
+        public bool? Status { get; set; }
+        public string AdmittedBy { get; set; }
+        public Nullable<System.DateTime> AdmittedDate { get; set; }
+        public string UpdatedBy { get; set; }
+        public Nullable<System.DateTime> UpdatedDate { get; set; }
+        public string DeletedBy { get; set; }
+        public Nullable<System.DateTime> DeletedDate { get; set; }
+
     }
     public class Student_AccountInfo
     {
@@ -38,17 +48,8 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int StudentId { get; set; }
 
     }
-    public class Student_PersonalInfo
-    {
-        [Key]
-        public int Id { get; set; }
-        public string PhoneNumber { get; set; }
-        public int? Nationality { get; set; }
-        [ForeignKey("Student")]
-        public int StudentId { get; set; }
 
 
-    }
     public class Student_Address
     {
         [Key]
@@ -84,7 +85,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [ForeignKey("Student")]
         public int StudentId { get; set; }
     }
-    public class ParentsDetails
+    public class Student_ParentsDetails
     {
         [Key]
         public int Id { get; set; }

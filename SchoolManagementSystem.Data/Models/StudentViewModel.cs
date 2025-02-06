@@ -11,6 +11,7 @@ namespace SchoolManagementSystem.Data.ViewModel
     public class StudentViewModel
     {
        
+        public int StudentId { get; set; }
         public string StudentUniqueId { get; set; }
         public string StudentName { get; set; }
         public string StudentName_Nep { get; set; }
@@ -19,11 +20,6 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string DOB_BS { get; set; }
         public int? BloodGroup { get; set; }
         public string StudentImage { get; set; }
-
-    }
-    public class Student_AccountInfoViewModel
-    {
-        public int Id { get; set; }
         public string LastInsertedId { get; set; }
         public string StudentIDUnique { get; set; }
         public string StudentPreviousCode { get; set; }
@@ -32,18 +28,9 @@ namespace SchoolManagementSystem.Data.ViewModel
         public int BusStop { get; set; }
         public int BusRouteEvening { get; set; }
         public int BusStopEvening { get; set; }          
-    }
-    public class Student_PersonalInfoViewModel
-    {
-       
-        public int Id { get; set; }
         public string PhoneNumber { get; set; }
         public int? Nationality { get; set; }
-
-    }
-    public class Student_AddressViewModel
-    {
-        public int Id { get; set; }
+        public bool? Status { get; set; }
         public int? PermanentProvince { get; set; }
         public int? PermanentDistrict { get; set; }
         public int? PermanentMunicipality { get; set; }
@@ -52,10 +39,6 @@ namespace SchoolManagementSystem.Data.ViewModel
         public int? CurrentDistrict { get; set; }
         public int? CurrentMunicipality { get; set; }
         public string CurrentAddress { get; set; }       
-    }
-    public class Student_AcademicInfoViewModel
-    {
-        public int Id { get; set; }
         public int Class { get; set; }
         public int Section { get; set; }
         public int AdmittedYear { get; set; }
@@ -69,10 +52,6 @@ namespace SchoolManagementSystem.Data.ViewModel
         public bool? Vegetarian { get; set; }
         public int? EnrollmentType { get; set; }
         public string IEMISNumber { get; set; }          
-    }
-    public class ParentsDetailsViewModel
-    {
-        public int Id { get; set; }
         public string FatherName { get; set; }
         public string FatherImage { get; set; }
         public string FatherOccupation { get; set; }
@@ -87,17 +66,20 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string GuardianRelation { get; set; }
         public string GuardianImage { get; set; }
         public string GuardianCell { get; set; }
-    
-       
-    }
-    public class Student_OtherDetailsViewModel
-    {
-        public int Id { get; set; }
+
         public string Religion { get; set; }
         public string Ethnicity { get; set; }
         public string Citizenship { get; set; }
         public string DifferentlyAbled { get; set; }
-        public string UserCode { get; set; }   
+        public string UserCode { get; set; }
+        public string AdmittedBy { get; set; }
+        public Nullable<System.DateTime> AdmittedDate { get; set; }
+        public string UpdatedBy { get; set; }
+        public Nullable<System.DateTime> UpdatedDate { get; set; }
+        public string DeletedBy { get; set; }
+        public Nullable<System.DateTime> DeletedDate { get; set; }
+
+        List<PreviousSchoolDetailsViewModel> PreviousSchoolDetails { get; set; }
     }
     public class PreviousSchoolDetailsViewModel
     {

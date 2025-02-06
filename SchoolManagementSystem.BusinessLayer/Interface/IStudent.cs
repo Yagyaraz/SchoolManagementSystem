@@ -9,9 +9,10 @@ namespace SchoolManagementSystem.BusinessLayer.Interface
 {
     public interface IStudent
     {
-        Task<StudentViewModel> GetAllStudentList();
+        Task<List<StudentViewModel>> GetAllStudentList();
         Task<StudentViewModel> GetStudentById(int? id);
         Task<bool>InsertUpdateStudent(StudentViewModel model);
+        Task<bool>DeleteStudent(int? id);
 
     }
 }
