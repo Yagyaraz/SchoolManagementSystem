@@ -12,3 +12,4 @@ Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\refint\Sc
 Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.pdb
 Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.genruntimeconfig.cache
 Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\ref\SchoolManagementSystem.Data.dll
+Y:\SchoolManagementSystem\SchoolManagementSystem.Data\obj\Debug\net8.0\SchoolManagementSystem.Data.sourcelink.json

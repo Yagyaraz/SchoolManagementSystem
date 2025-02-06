@@ -22,7 +22,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public string StudentImage { get; set; }
 
     }
-    public class Student_AccountInfo()
+    public class Student_AccountInfo
     {
         [Key]
         public int Id { get; set; }
@@ -38,7 +38,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int StudentId { get; set; }
 
     }
-    public class Student_PersonalInfo()
+    public class Student_PersonalInfo
     {
         [Key]
         public int Id { get; set; }
@@ -49,7 +49,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
 
 
     }
-    public class Student_Address()
+    public class Student_Address
     {
         [Key]
         public int Id { get; set; }
@@ -64,7 +64,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [ForeignKey("Student")]
         public int StudentId { get; set; }
     }
-    public class Student_AcademicInfo()
+    public class Student_AcademicInfo
     {
         [Key]
         public int Id { get; set; }
@@ -84,7 +84,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [ForeignKey("Student")]
         public int StudentId { get; set; }
     }
-    public class ParentsDetails()
+    public class ParentsDetails
     {
         [Key]
         public int Id { get; set; }
@@ -105,7 +105,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [ForeignKey("Student")]
         public int StudentId { get; set; }
     }
-    public class Student_OtherDetails()
+    public class Student_OtherDetails
     {
         [Key]
         public int Id { get; set; }
@@ -117,7 +117,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [ForeignKey("Student")]
         public int StudentId { get; set; }
     }
-    public class PreviousSchoolDetails()
+    public class PreviousSchoolDetails
     {
         [Key]
         public int Id { get; set; }

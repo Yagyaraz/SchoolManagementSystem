@@ -13,3 +13,4 @@ Y:\SchoolManagementSystem\SchoolManagementSystem.BusinessLayer\obj\Debug\net8.0\
 Y:\SchoolManagementSystem\SchoolManagementSystem.BusinessLayer\obj\Debug\net8.0\refint\SchoolManagementSystem.BusinessLayer.dll
 Y:\SchoolManagementSystem\SchoolManagementSystem.BusinessLayer\obj\Debug\net8.0\SchoolManagementSystem.BusinessLayer.pdb
 Y:\SchoolManagementSystem\SchoolManagementSystem.BusinessLayer\obj\Debug\net8.0\ref\SchoolManagementSystem.BusinessLayer.dll
+Y:\SchoolManagementSystem\SchoolManagementSystem.BusinessLayer\obj\Debug\net8.0\SchoolManagementSystem.BusinessLayer.sourcelink.json
