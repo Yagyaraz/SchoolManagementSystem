@@ -1,0 +1,808 @@
+﻿
+
+    
+
+
+        <!-- Main Content -->
+       
+
+            <div class=" p-4">
+
+                <div class="box-page p-lg-4 p-3 box-height">
+                    <div class="box-page__header">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="box-page__header--details d-flex justify-content-between mb-4">
+                                    <h1>Add New Student</h1>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-page__content">
+                        <div class="row">
+                            <section class="col-md-12">
+
+                                <form>
+                                    <h3 class="box-title div-title">
+                                        Basic Info
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Student's Image</label>
+                                                <input type="file" id="studentImage" class="form-control"
+                                                       data-resize="600" name="image" accept=".jpg,.png,.jpeg"
+                                                       onchange="validateNewImageType(this)">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Full Name <span class="required">*</span></label>
+                                                <input type="text" name="name" class="form-control"
+                                                       style="text-transform: capitalize;" required="">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>नाम (देवनागरीमा)</label>
+                                                <input type="text" name="name_in_nepali" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Gender <span class="required">*</span></label>
+                                                <select name="gender" class="form-control" required="">
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                    <option value="Others">Others</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>
+                                                    Date of Birth - BS <a href="javascript:void()"
+                                                                          onclick="adToBs()">Convert From AD</a>
+                                                </label>
+                                                <input type="text" name="dob_bs" id="datepickerBS"
+                                                       placeholder="YYYY-MM-DD" class="form-control" autocomplete="off"
+                                                       style="width:100%"
+                                                       oninput="this.value = this.value.replace(/[^0-9 -]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>
+                                                    Date of Birth - AD <a href="javascript:void()"
+                                                                          onclick="bsToAdConvert()">Convert From BS</a>
+                                                </label>
+                                                <input type="text" name="dob_ad" id="datepickerAD"
+                                                       placeholder="YYYY-MM-DD" class="form-control" autocomplete="off"
+                                                       oninput="this.value = this.value.replace(/[^0-9 -]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Blood Group</label>
+                                                <input type="text" name="blood_group" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title mt-3">
+                                        Academic Info
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="" style="width: 100%; display: none;">
+                                            <div class="form-group">
+                                                <label>Program Type</label>
+                                                <input type="radio" name="program_type" value="0"
+                                                       class="program_type_annual"> Academic &nbsp;&nbsp;&nbsp;
+                                                <input type="radio" name="program_type" value="1"
+                                                       class="program_type_semester"> Semester
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Class <span class="required">*</span></label>
+                                                <select class="form-control  " id="mark" name="class">
+                                                    <option value="" selected=""> Select Class </option>
+                                                    <option value="BBA-Sem-8" data-batch=""> BBA-Sem-8 </option>
+                                                    <option value="BBA-Sem-6" data-batch=""> BBA-Sem-6 </option>
+                                                    <option value="BBA-Sem-4" data-batch=""> BBA-Sem-4 </option>
+                                                    <option value="BBA-Sem-2" data-batch=""> BBA-Sem-2 </option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Section <span class="required">*</span></label>
+                                                <select data-all="" class="form-control " id="series" name="section">
+                                                    <option value=""> Select Section</option>
+                                                    <option value="A"> A </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Admitted Year</label>
+
+                                                <select class="form-select" name="admitted_year" id="admitted_year">
+                                                    <option value="2081" selected="">2081</option>
+                                                    <option value="2080">2080</option>
+                                                    <option value="2079">2079</option>
+                                                    <option value="2078">2078</option>
+                                                    <option value="2077">2077</option>
+                                                    <option value="2076">2076</option>
+                                                    <option value="2075">2075</option>
+                                                    <option value="2074">2074</option>
+                                                    <option value="2073">2073</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>
+                                                    Last Inserted Roll No. <span class="sm small text-danger"
+                                                                                 id="lastInsertRollMsg"></span>
+                                                </label>
+                                                <input type="text" class="form-control" id="lastInsertedRollNo"
+                                                       readonly="">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Class Roll No.</label>
+                                                <input type="text" name="class_roll_no" id="class_roll_no"
+                                                       class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Symbol Number</label>
+                                                <input type="text" name="result_symbol_number" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Team</label>
+                                                <input type="text" name="team" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Coaching</label>
+                                                <select name="coaching" class="form-control">
+                                                    <option value="">Select Coaching</option>
+                                                    <option value="0">No</option>
+                                                    <option value="1">Yes</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Transportation Mode</label>
+                                                <select name="transportation_mode" class="form-control"
+                                                        onchange="transportationModeChanged()">
+                                                    <option value="">Select Mode</option>
+                                                    <option value="1">Walking</option>
+                                                    <option value="2">Bus</option>
+                                                    <option value="3">Guardian</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Tea/Breakfast</label>
+                                                <select name="tea_breakfast" class="form-control">
+                                                    <option value="">Select value</option>
+                                                    <option value="1">Yes</option>
+                                                    <option value="0">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Lunch/Snacks</label>
+                                                <select name="lunch" class="form-control">
+                                                    <option value="">Select value</option>
+                                                    <option value="1">Yes</option>
+                                                    <option selected="" value="0">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Vegetarian</label>
+                                                <select name="lunch_veg" class="form-control">
+                                                    <option value="">Select value</option>
+                                                    <option value="1">Yes</option>
+                                                    <option selected="" value="0">No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Enrollment</label>
+                                                <select name="enrollment_type" class="form-control">
+                                                    <option value="">Select value</option>
+                                                    <option selected="" value="0">Day Scholar</option>
+                                                    <option value="1">Day Boarder</option>
+                                                    <option value="2">Semi Day Boarder</option>
+                                                    <option value="3">Boarder</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>IEMIS Number</label>
+                                                <input type="text" name="iemis_number" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title  ">
+                                        Account Info
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Last Inserted ID</label>
+                                                <input type="text" class="form-control" readonly="" disabled=""
+                                                       id="lastInsertedID" value="ritul" data-orginal="ritul">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+
+                                                <label>
+                                                    Student ID (Student Unique Username) <span class="required">*</span>
+                                                </label>
+                                                <!-- <input type="text" name="school_id" id="schoolId" value="1" class="form-control" required> -->
+                                                <div class="wrap-prefix">
+                                                    <!-- <input type="text" name="school_id" id="schoolId" value="1" class="form-control" > -->
+                                                    <input type="hidden" name="school_id" class="form-control"
+                                                           id="username" value="1">
+                                                    <input type="text" name="displayusername"
+                                                           class="form-control border-left-none" id="schoolId" value="1"
+                                                           required="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Student Previous Code (If Exists)</label>
+                                                <input type="text" name="unique_code" id="unique_code" value=""
+                                                       class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Student's Email</label>
+                                                <input type="email" name="student_email" class="form-control">
+                                                <!-- <p class="p text-muted">Email is used for login of student's account.</p> -->
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group hidden">
+                                                <label>Bus Route</label>
+                                                <select name="bus_route" class="form-control">
+                                                    <option value="">Select Bus Route</option>
+                                                    <option value="Bus A">Bus A</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group hidden">
+                                                <label>Bus Stop</label>
+                                                <select name="bus_stop" id="bus_stop" class="form-control">
+                                                    <option value="">Select bus stop</option>
+                                                    <option value="Ban" data-route="Bus A"> Ban </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group hidden">
+                                                <label>Bus Route Evening</label>
+                                                <select name="bus_route_evening" class="form-control">
+                                                    <option value="">Select Bus Route Evening</option>
+                                                    <option value="Bus A">Bus A</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group hidden">
+                                                <label>Bus Stop Evening</label>
+                                                <select name="bus_stop_evening" id="bus_stop_evening"
+                                                        class="form-control">
+                                                    <option value="">Select bus stop evening</option>
+                                                    <option value="Ban" data-route="Bus A"> Ban </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title">
+                                        Personal Info
+                                    </h3>
+                                    <div class="grid-container">
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Phone Number</label>
+                                                <input type="number" min="0" name="phone" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Nationality</label>
+                                                <select name="nationality" id="nationality" class="form-control">
+                                                    <option value="" selected>Nepali</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h5 class="box-title personal-info-div">
+                                        Permanent Address
+                                    </h5>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Province</label>
+                                                <select name="permanent_province" id="p-province"
+                                                        class="p-province form-control">
+                                                    <option value="">Select Province</option>
+                                                    <option value="Koshi" data-id="1">Koshi</option>
+                                                    <option value="Madhesh" data-id="2">Madhesh</option>
+                                                    <option value="Bagmati" data-id="3">Bagmati</option>
+                                                    <option value="Gandaki" data-id="4">Gandaki</option>
+                                                    <option value="Lumbini" data-id="5">Lumbini</option>
+                                                    <option value="Karnali" data-id="6">Karnali</option>
+                                                    <option value="Sudurpashchim" data-id="7">Sudurpashchim</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>District</label>
+                                                <select name="permanent_district" id="p-district"
+                                                        class="p-district form-control">
+                                                    <option value="">Select District</option>
+                                                    <option value="Panchthar" data-id="2">Panchthar</option>
+                                                    <option value="Ilam" data-id="3">Ilam</option>
+                                                    <option value="Jhapa" data-id="4">Jhapa</option>
+
+                                                    <option value="Bajhang" data-id="71">Bajhang</option>
+                                                    <option value="Darchula" data-id="72">Darchula</option>
+                                                    <option value="Dadeldhura" data-id="74">Dadeldhura</option>
+                                                    <option value="Nawalparasi East" data-id="481">
+                                                        Nawalparasi East
+                                                    </option>
+                                                    <option value="Nawalparasi West" data-id="482">
+                                                        Nawalparasi West
+                                                    </option>
+                                                    <option value="Rukum West" data-id="542">Rukum West</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Municipality</label>
+                                                <select name="permanent_municipality" id="p-municipality"
+                                                        class="p-municipality form-control">
+                                                    <option value="">Select Municipality</option>
+                                                    <option value="Phaktanglung" data-id="">Phaktanglung</option>
+                                                    <option value="Sirijangha" data-id="">Sirijangha</option>
+                                                    <option value="Illam" data-id="">Illam</option>
+                                                    <option value="Mai" data-id="">Mai</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Permanent Address</label>
+                                                <input type="text" name="permanent_address" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="clear:both"></div>
+                                    <h5 class="box-title personal-info-div"
+                                        style="font-weight: bold; margin-bottom: 15px; display: inline-block;">
+                                        Current Address
+                                        <span style="margin-left: 10px; display: inline-block;">
+                                            <input type="checkbox" id="sameAsPermanent"
+                                                   onchange="copyPermanentAddress()">
+                                            <label for="sameAsPermanent"
+                                                   style="font-size: smaller;font-weight: bold">
+                                                Same as Permanent
+                                                Address
+                                            </label>
+                                        </span>
+                                    </h5>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Province</label>
+                                                <select name="province" id="province" class="province form-control">
+                                                    <option value="">Select Province</option>
+                                                    <option value="Koshi" data-id="1">Koshi</option>
+                                                    <option value="Madhesh" data-id="2">Madhesh</option>
+                                                    <option value="Bagmati" data-id="3">Bagmati</option>
+                                                    <option value="Gandaki" data-id="4">Gandaki</option>
+                                                    <option value="Lumbini" data-id="5">Lumbini</option>
+                                                    <option value="Karnali" data-id="6">Karnali</option>
+                                                    <option value="Sudurpashchim" data-id="7">Sudurpashchim</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>District</label>
+                                                <select name="district" id="district" class="district form-control">
+                                                    <option value="">Select District</option>
+                                                    <option value="Panchthar" data-id="2">Panchthar</option>
+                                                    <option value="Ilam" data-id="3">Ilam</option>
+                                                    <option value="Jhapa" data-id="4">Jhapa</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Municipality</label>
+                                                <select name="municipality" id="municipality"
+                                                        class="municipality form-control">
+                                                    <option value="">Select Municipality</option>
+                                                    <option value="Phaktanglung" data-id="">Phaktanglung</option>
+                                                    <option value="Sirijangha" data-id="">Sirijangha</option>
+                                                    <option value="Illam" data-id="">Illam</option>
+                                                    <option value="Mai" data-id="">Mai</option>
+                                                    <option value="Rong" data-id="">Rong</option>
+                                                    <option value="Suryodaya" data-id="">Suryodaya</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Address</label>
+                                                <input type="text" name="address" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <hr>
+                                    <h3 class="box-title div-title">
+                                        Father's Detail
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Father's Name</label>
+                                                <input type="text" name="father_name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Father's Image</label>
+                                                <input type="file" id="fatherImage" class="form-control"
+                                                       name="father_image" data-resize="300" accept=".jpg,.png,.jpeg"
+                                                       onchange="validateNewImageType(this)">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Father's Occupation</label>
+                                                <input type="text" name="f_occupation" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Father's Cell No.</label>
+                                                <input type="text" name="f_cell" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Father's Email</label>
+                                                <input type="text" name="f_email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title">
+                                        Mother's Detail
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Mother's Name</label>
+                                                <input type="text" name="mother_name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Mother's Image</label>
+                                                <input type="file" id="motherImage" class="form-control"
+                                                       data-resize="300" name="mother_image" accept=".jpg,.png,.jpeg"
+                                                       onchange="validateNewImageType(this)">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Mother's Occupation</label>
+                                                <input type="text" name="m_occupation" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Mother's Cell No.</label>
+                                                <input type="text" name="m_cell" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Mother's Email</label>
+                                                <input type="text" name="m_email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title">
+                                        Local Guardian's Detail
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Local Guardian's Name</label>
+                                                <input type="text" name="guardian_name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Relation</label>
+                                                <input type="text" name="g_relation" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Local Guardian's Image</label>
+                                                <input type="file" id="localGuardianImage" class="form-control"
+                                                       data-resize="300" name="guardian_image" accept=".jpg,.png,.jpeg"
+                                                       onchange="validateNewImageType(this)">
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Local Guardian's Cell No.</label>
+                                                <input type="text" name="g_cell" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <h3 class="box-title div-title">
+                                        Other Detail
+                                    </h3>
+                                    <div class="grid-container">
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Religion</label>
+                                                <select name="religion" id="religion" class="form-control">
+                                                    <option value="">Select Religion</option>
+                                                    <option value="Buddhism">Buddhism</option>
+                                                    <option value="Christianity">Christianity</option>
+                                                    <option value="Hinduism">Hinduism</option>
+                                                    <option value="Islam">Islam</option>
+                                                    <option value="Kirat">Kirat</option>
+                                                    <option value="Others">Others</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Ethnicity</label>
+                                                <select name="cast" id="cast"
+                                                        class="form-control select2-hidden-accessible"
+                                                        data-select2-id="select2-data-cast" tabindex="-1"
+                                                        aria-hidden="true">
+                                                    <option value="" data-select2-id="select2-data-46-g6jq">
+                                                        Select Cast
+                                                    </option>
+                                                    <option value="Brahmin">Brahmin</option>
+                                                    <option value="Chhetri">Chhetri</option>
+                                                    <option value="Newar">Newar</option>
+                                                    <option value="Tamang">Tamang</option>
+                                                    <option value="Magar">Magar</option>
+                                                    <option value="Sherpa">Sherpa</option>
+                                                    <option value="Rai">Rai</option>
+                                                    <option value="Gurung">Gurung</option>
+                                                    <option value="Limbu">Limbu</option>
+                                                    <option value="Tharu">Tharu</option>
+                                                    <option value="Chepang">Chepang</option>
+                                                    <option value="Bhote">Bhote</option>
+                                                    <option value="Sunuwar">Sunuwar</option>
+                                                    <option value="Kami">Kami</option>
+                                                    <option value="Damai">Damai</option>
+                                                    <option value="Sarki">Sarki</option>
+                                                    <option value="Thakuri">Thakuri</option>
+                                                    <option value="Bhujel">Bhujel</option>
+                                                    <option value="Danuwar">Danuwar</option>
+                                                    <option value="Dhanuk">Dhanuk</option>
+                                                    <option value="Gaine (Gandarbha)">Gaine (Gandarbha)</option>
+                                                    <option value="Ghale">Ghale</option>
+                                                    <option value="Hayu">Hayu</option>
+                                                    <option value="Jhangad">Jhangad</option>
+                                                    <option value="Kumal">Kumal</option>
+                                                    <option value="Lepcha">Lepcha</option>
+                                                    <option value="Majhi">Majhi</option>
+                                                    <option value="Meche">Meche</option>
+                                                    <option value="Pahari">Pahari</option>
+                                                    <option value="Rajbanshi">Rajbanshi</option>
+                                                    <option value="Satar (Santhal)">Satar (Santhal)</option>
+                                                    <option value="Thakali">Thakali</option>
+                                                    <option value="Yakkha">Yakkha</option>
+                                                </select><span class="select2 select2-container select2-container--default"
+                                                               dir="ltr" data-select2-id="select2-data-45-mhnq"
+                                                               style="width: 393px;">
+                                                    <span class="selection">
+                                                        <span class="select2-selection select2-selection--single"
+                                                              role="combobox" aria-haspopup="true" aria-expanded="false"
+                                                              tabindex="0" aria-disabled="false"
+                                                              aria-labelledby="select2-cast-container"
+                                                              aria-controls="select2-cast-container">
+                                                            <span class="select2-selection__rendered"
+                                                                  id="select2-cast-container" role="textbox"
+                                                                  aria-readonly="true" title="Select Cast">
+                                                                Select
+                                                                Cast
+                                                            </span><span class="select2-selection__arrow"
+                                                                         role="presentation">
+                                                                <b role="presentation"></b>
+                                                            </span>
+                                                        </span>
+                                                    </span><span class="dropdown-wrapper" aria-hidden="true"></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Citizenship</label>
+                                                <input type="text" name="citizenship" class="form-control"
+                                                       value="Nepali">
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>Differently Abled</label>
+                                                <select name="handicapped" id="" class="form-control">
+                                                    <option value="0">No</option>
+                                                    <option value="1">Yes</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="form-group">
+                                                <label>User Code</label>
+                                                <input type="text" name="user_code" class="form-control" value="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="box-title div-title mt-3">
+                                        Previous School Detail
+                                    </h3>
+                                    <partial name="_PreviousSchoolDetails"></partial>
+
+                                    <input type="hidden" name="siblings" id="selectedStudentIds" value="">
+                                    <div class="form-group" style="clear: both">
+                                        <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                                    </div>
+                                </form>
+
+
+                            </section>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Include ApexCharts -->
+    <script>
+        $(document).ready(function () {
+            // Add new row
+            $(".school-part a").click(function () {
+                let newRow = $(".previous-school-tbl-body tr:first").clone(); // Clone first row
+                newRow.find("input").val(""); // Clear input fields
+                $(".previous-school-tbl-body").append(newRow); // Append row to tbody
+            });
+
+            // Remove row
+            $(document).on("click", "#remove-school-tr", function () {
+                if ($(".previous-school-tbl-body tr").length > 1) {
+                    $(this).closest("tr").remove(); // Remove the closest row
+                } else {
+                    alert("At least one row is required.");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        const toggleSidebar = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+        const main = document.getElementById('main');
+
+        toggleSidebar.addEventListener('click', () => {
+            sidebar.classList.toggle('collapsed');
+            main.classList.toggle('full-width');
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select all dropdown toggles
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function () {
+                    // Get the associated dropdown icon
+                    const icon = this.querySelector('.dropdown-icon');
+
+                    // Toggle angle-left and angle-down classes
+                    if (icon.classList.contains('fa-angle-left')) {
+                        icon.classList.remove('fa-angle-left');
+                        icon.classList.add('fa-angle-down');
+                    } else {
+                        icon.classList.remove('fa-angle-down');
+                        icon.classList.add('fa-angle-left');
+                    }
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
+

@@ -287,6 +287,340 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.ToTable("District");
                 });
 
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.PreviousSchoolDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("PreviousSchoolLevel")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolPassedYear")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolPercentage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolRegistrationNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolSymbolNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PreviousSchoolUniversity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PreviousSchoolDetails");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student", b =>
+                {
+                    b.Property<int>("StudentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"));
+
+                    b.Property<string>("AdmittedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("AdmittedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("BloodGroup")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreateddBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("DOB_AD")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DOB_BS")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DeletedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Gender")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Nationality")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StudentImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentName_Nep")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentUniqueId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("StudentId");
+
+                    b.ToTable("Student");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student_AcademicInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AdmittedYear")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Class")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ClassRollNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("Coaching")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("EnrollmentType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IEMISNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("LunchSnacks")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Section")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SymbolNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool?>("TeaBreakfast")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Team")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TransportationMode")
+                        .HasColumnType("int");
+
+                    b.Property<bool?>("Vegetarian")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentAcademicInfo");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student_AccountInfo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BusRoute")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BusRouteEvening")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BusStop")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BusStopEvening")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastInsertedId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StudentIDUnique")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("StudentPreviousCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentAccountInfo");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student_Address", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CurrentAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CurrentDistrict")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CurrentMunicipality")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CurrentProvince")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PermanentAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("PermanentDistrict")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PermanentMunicipality")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("PermanentProvince")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentAddress");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student_OtherDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Citizenship")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DifferentlyAbled")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Ethnicity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Religion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentOtherDetails");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Student_ParentsDetails", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("FatherCell")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FatherOccupation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GuardianCell")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GuardianImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GuardianName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("GuardianRelation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherCell")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherImage")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MotherOccupation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentParentsDetails");
+                });
+
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.FiscalYear", b =>
                 {
                     b.Property<int>("Id")

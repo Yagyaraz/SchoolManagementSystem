@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dn5ZyUliJkG1dbVIVSFDMQAR/9kDpnaoelC9qzZKMnU=",
+  "Hash": "Q4Wv/uszFGIdJRiLSaGZNIOv2lsHOF7qAR+ZxlIcW9Q=",
   "Source": "SchoolManagementSystem",
   "BasePath": "_content/SchoolManagementSystem",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "SchoolManagementSystem\\wwwroot",
       "Source": "SchoolManagementSystem",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\Softech\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "SchoolManagementSystem#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "TP7v5oiKkfSBygfBJVUgA+1L+xWKkPeyGnwTCJIOWzg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css"
+      "OriginalItemSpec": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Computed",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "SchoolManagementSystem#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "TP7v5oiKkfSBygfBJVUgA+1L+xWKkPeyGnwTCJIOWzg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css"
+      "OriginalItemSpec": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Analytics icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Analytics icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Assignment icon (1)#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Assignment icon (1).svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Assignment icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Assignment icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Attendance icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Attendance icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Bogs icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Bogs icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/CAS icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\CAS icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Change password icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Change password icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Check homework icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Check homework icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Course plan icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Course plan icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Daily report icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Daily report icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Document upload icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Document upload icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Downloads icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Downloads icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/E-Classroom icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\E-Classroom icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Events icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Events icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Exam icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Exam icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Gallery icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Gallery icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/General evaluation icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\General evaluation icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/GPS tracker icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\GPS tracker icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Group attendance icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Group attendance icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/help icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\help icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Homework icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Homework icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Leave notes icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Leave notes icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Ledgers icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Ledgers icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Library icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Library icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Lunch icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Lunch icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Merit icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Merit icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/notification icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\notification icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Online class icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Online class icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/QR code#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\QR code.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Reading material icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Reading material icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Records icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Records icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Routine icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Routine icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Selective exam#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Selective exam.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Setup icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2054,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Setup icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Staff icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2075,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Staff icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/students#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2096,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\students.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Teacher evaluation icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2117,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Teacher evaluation icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/tool icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\tool icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Videos icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Videos icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/icons/Website icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2180,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\images\\icons\\Website icon.svg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -2201,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "images/verve#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2222,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\images\\verve.jpg"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2243,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2264,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2285,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2306,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2327,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2348,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2369,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2390,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2432,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2453,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2474,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2495,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2537,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2558,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2579,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2600,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2621,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2642,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2663,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2684,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2705,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2726,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2747,10 +2747,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2768,10 +2768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2789,10 +2789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2831,10 +2831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2852,10 +2852,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2894,10 +2894,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2915,10 +2915,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2936,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2957,10 +2957,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2978,10 +2978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2999,10 +2999,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3020,10 +3020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3041,10 +3041,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3062,10 +3062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3083,10 +3083,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3104,10 +3104,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3125,10 +3125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3146,10 +3146,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3167,10 +3167,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -3188,10 +3188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3251,10 +3251,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -3272,10 +3272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3293,10 +3293,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3314,10 +3314,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3335,10 +3335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3356,10 +3356,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -3377,10 +3377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3398,10 +3398,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3419,10 +3419,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -3440,10 +3440,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "scss/login#[.{fingerprint}]?.scss",
       "AssetKind": "All",
@@ -3461,10 +3461,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\login.scss"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "scss/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -3482,10 +3482,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.css"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "scss/style.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3503,10 +3503,10 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.css.map"
     },
     {
-      "Identity": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
+      "Identity": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
       "SourceId": "SchoolManagementSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
+      "ContentRoot": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\",
       "BasePath": "_content/SchoolManagementSystem",
       "RelativePath": "scss/style#[.{fingerprint}]?.scss",
       "AssetKind": "All",
@@ -3527,7 +3527,7 @@
   "Endpoints": [
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3572,7 +3572,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5829,7 +5829,7 @@
     },
     {
       "Route": "images/icons/Analytics icon.1q175d68be.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5874,7 +5874,7 @@
     },
     {
       "Route": "images/icons/Analytics icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Analytics icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5911,7 +5911,7 @@
     },
     {
       "Route": "images/icons/Assignment icon (1).svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5948,7 +5948,7 @@
     },
     {
       "Route": "images/icons/Assignment icon (1).xh50ncwvfz.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon (1).svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5993,7 +5993,7 @@
     },
     {
       "Route": "images/icons/Assignment icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6030,7 +6030,7 @@
     },
     {
       "Route": "images/icons/Assignment icon.xh50ncwvfz.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Assignment icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6075,7 +6075,7 @@
     },
     {
       "Route": "images/icons/Attendance icon.qjp8mna1tm.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6120,7 +6120,7 @@
     },
     {
       "Route": "images/icons/Attendance icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Attendance icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6157,7 +6157,7 @@
     },
     {
       "Route": "images/icons/Bogs icon.h0hg7e2ewj.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6202,7 +6202,7 @@
     },
     {
       "Route": "images/icons/Bogs icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Bogs icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6239,7 +6239,7 @@
     },
     {
       "Route": "images/icons/CAS icon.9e3uztnsh3.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6284,7 +6284,7 @@
     },
     {
       "Route": "images/icons/CAS icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\CAS icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6321,7 +6321,7 @@
     },
     {
       "Route": "images/icons/Change password icon.ktm1qvzcd9.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6366,7 +6366,7 @@
     },
     {
       "Route": "images/icons/Change password icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Change password icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6403,7 +6403,7 @@
     },
     {
       "Route": "images/icons/Check homework icon.k6ozp095i4.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6448,7 +6448,7 @@
     },
     {
       "Route": "images/icons/Check homework icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Check homework icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6485,7 +6485,7 @@
     },
     {
       "Route": "images/icons/Course plan icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6522,7 +6522,7 @@
     },
     {
       "Route": "images/icons/Course plan icon.tseiqih2md.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Course plan icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6567,7 +6567,7 @@
     },
     {
       "Route": "images/icons/Daily report icon.1q175d68be.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6612,7 +6612,7 @@
     },
     {
       "Route": "images/icons/Daily report icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Daily report icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6649,7 +6649,7 @@
     },
     {
       "Route": "images/icons/Document upload icon.dpfroceikb.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6694,7 +6694,7 @@
     },
     {
       "Route": "images/icons/Document upload icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Document upload icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6731,7 +6731,7 @@
     },
     {
       "Route": "images/icons/Downloads icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6768,7 +6768,7 @@
     },
     {
       "Route": "images/icons/Downloads icon.u6r459pjd6.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Downloads icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6813,7 +6813,7 @@
     },
     {
       "Route": "images/icons/E-Classroom icon.ie02vsrczg.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6858,7 +6858,7 @@
     },
     {
       "Route": "images/icons/E-Classroom icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\E-Classroom icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6895,7 +6895,7 @@
     },
     {
       "Route": "images/icons/Events icon.qraaxy2h9a.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6940,7 +6940,7 @@
     },
     {
       "Route": "images/icons/Events icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Events icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6977,7 +6977,7 @@
     },
     {
       "Route": "images/icons/Exam icon.7qzx7my7sc.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7022,7 +7022,7 @@
     },
     {
       "Route": "images/icons/Exam icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Exam icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7059,7 +7059,7 @@
     },
     {
       "Route": "images/icons/Gallery icon.f2cj4rw2qq.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7104,7 +7104,7 @@
     },
     {
       "Route": "images/icons/Gallery icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Gallery icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7141,7 +7141,7 @@
     },
     {
       "Route": "images/icons/General evaluation icon.1rcy4vfk4r.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7186,7 +7186,7 @@
     },
     {
       "Route": "images/icons/General evaluation icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\General evaluation icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7223,7 +7223,7 @@
     },
     {
       "Route": "images/icons/GPS tracker icon.64brr5i8ms.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7268,7 +7268,7 @@
     },
     {
       "Route": "images/icons/GPS tracker icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\GPS tracker icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7305,7 +7305,7 @@
     },
     {
       "Route": "images/icons/Group attendance icon.re309q0jz0.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7350,7 +7350,7 @@
     },
     {
       "Route": "images/icons/Group attendance icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Group attendance icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7387,7 +7387,7 @@
     },
     {
       "Route": "images/icons/help icon.j62jyg2jid.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7432,7 +7432,7 @@
     },
     {
       "Route": "images/icons/help icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\help icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7469,7 +7469,7 @@
     },
     {
       "Route": "images/icons/Homework icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7506,7 +7506,7 @@
     },
     {
       "Route": "images/icons/Homework icon.vdar7c8xtf.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Homework icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7551,7 +7551,7 @@
     },
     {
       "Route": "images/icons/Leave notes icon.ch9rmn42b0.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7596,7 +7596,7 @@
     },
     {
       "Route": "images/icons/Leave notes icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Leave notes icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7633,7 +7633,7 @@
     },
     {
       "Route": "images/icons/Ledgers icon.l8z9j00ihk.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7678,7 +7678,7 @@
     },
     {
       "Route": "images/icons/Ledgers icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Ledgers icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7715,7 +7715,7 @@
     },
     {
       "Route": "images/icons/Library icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7752,7 +7752,7 @@
     },
     {
       "Route": "images/icons/Library icon.trei41peiv.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Library icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7797,7 +7797,7 @@
     },
     {
       "Route": "images/icons/Lunch icon.sg47vpyn06.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7842,7 +7842,7 @@
     },
     {
       "Route": "images/icons/Lunch icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Lunch icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7879,7 +7879,7 @@
     },
     {
       "Route": "images/icons/Merit icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7916,7 +7916,7 @@
     },
     {
       "Route": "images/icons/Merit icon.x0qw3hzl53.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Merit icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7961,7 +7961,7 @@
     },
     {
       "Route": "images/icons/notification icon.1pxf94duy3.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8006,7 +8006,7 @@
     },
     {
       "Route": "images/icons/notification icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\notification icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8043,7 +8043,7 @@
     },
     {
       "Route": "images/icons/Online class icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8080,7 +8080,7 @@
     },
     {
       "Route": "images/icons/Online class icon.wpsxdm6fvq.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Online class icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8125,7 +8125,7 @@
     },
     {
       "Route": "images/icons/QR code.mv3nazu14x.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8170,7 +8170,7 @@
     },
     {
       "Route": "images/icons/QR code.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\QR code.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8207,7 +8207,7 @@
     },
     {
       "Route": "images/icons/Reading material icon.9dcf807wua.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8252,7 +8252,7 @@
     },
     {
       "Route": "images/icons/Reading material icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Reading material icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8289,7 +8289,7 @@
     },
     {
       "Route": "images/icons/Records icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8326,7 +8326,7 @@
     },
     {
       "Route": "images/icons/Records icon.uquhhs1b59.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Records icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8371,7 +8371,7 @@
     },
     {
       "Route": "images/icons/Routine icon.6cq61ag7i9.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8416,7 +8416,7 @@
     },
     {
       "Route": "images/icons/Routine icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Routine icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8453,7 +8453,7 @@
     },
     {
       "Route": "images/icons/Selective exam.h5b8my5qk3.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8498,7 +8498,7 @@
     },
     {
       "Route": "images/icons/Selective exam.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Selective exam.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8535,7 +8535,7 @@
     },
     {
       "Route": "images/icons/Setup icon.5mr66b0y6v.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8580,7 +8580,7 @@
     },
     {
       "Route": "images/icons/Setup icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Setup icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8617,7 +8617,7 @@
     },
     {
       "Route": "images/icons/Staff icon.kne8hrobpe.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8662,7 +8662,7 @@
     },
     {
       "Route": "images/icons/Staff icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Staff icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8699,7 +8699,7 @@
     },
     {
       "Route": "images/icons/students.pf1o852v0s.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8744,7 +8744,7 @@
     },
     {
       "Route": "images/icons/students.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\students.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8781,7 +8781,7 @@
     },
     {
       "Route": "images/icons/Teacher evaluation icon.1rcy4vfk4r.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8826,7 +8826,7 @@
     },
     {
       "Route": "images/icons/Teacher evaluation icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Teacher evaluation icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8863,7 +8863,7 @@
     },
     {
       "Route": "images/icons/tool icon.ji29mkggar.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8908,7 +8908,7 @@
     },
     {
       "Route": "images/icons/tool icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\tool icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8945,7 +8945,7 @@
     },
     {
       "Route": "images/icons/Videos icon.3a9p3jkiro.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8990,7 +8990,7 @@
     },
     {
       "Route": "images/icons/Videos icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Videos icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9027,7 +9027,7 @@
     },
     {
       "Route": "images/icons/Website icon.30ga8m404g.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9072,7 +9072,7 @@
     },
     {
       "Route": "images/icons/Website icon.svg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\icons\\Website icon.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9109,7 +9109,7 @@
     },
     {
       "Route": "images/logo.1yxwtqvtmr.png",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9154,7 +9154,7 @@
     },
     {
       "Route": "images/logo.png",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9191,7 +9191,7 @@
     },
     {
       "Route": "images/verve.2q4sk7k99i.jpg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9236,7 +9236,7 @@
     },
     {
       "Route": "images/verve.jpg",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\images\\verve.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9273,7 +9273,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9310,7 +9310,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9355,7 +9355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9392,7 +9392,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9437,7 +9437,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9474,7 +9474,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9519,7 +9519,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9556,7 +9556,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9601,7 +9601,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9638,7 +9638,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9683,7 +9683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9720,7 +9720,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9765,7 +9765,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9802,7 +9802,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9847,7 +9847,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9884,7 +9884,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9929,7 +9929,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9966,7 +9966,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10011,7 +10011,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10056,7 +10056,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10093,7 +10093,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10130,7 +10130,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10175,7 +10175,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10212,7 +10212,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10257,7 +10257,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10294,7 +10294,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10339,7 +10339,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10376,7 +10376,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10421,7 +10421,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10458,7 +10458,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10495,7 +10495,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10532,7 +10532,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10577,7 +10577,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10622,7 +10622,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10667,7 +10667,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10712,7 +10712,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10749,7 +10749,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10794,7 +10794,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10831,7 +10831,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10868,7 +10868,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10905,7 +10905,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10950,7 +10950,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10995,7 +10995,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11040,7 +11040,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11077,7 +11077,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11122,7 +11122,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11159,7 +11159,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11196,7 +11196,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11233,7 +11233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11278,7 +11278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11323,7 +11323,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11360,7 +11360,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11405,7 +11405,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11442,7 +11442,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11487,7 +11487,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11524,7 +11524,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11561,7 +11561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11606,7 +11606,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11651,7 +11651,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11688,7 +11688,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11733,7 +11733,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11770,7 +11770,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11807,7 +11807,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11852,7 +11852,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11889,7 +11889,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11934,7 +11934,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11979,7 +11979,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12016,7 +12016,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12061,7 +12061,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12098,7 +12098,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12143,7 +12143,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12188,7 +12188,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12225,7 +12225,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12270,7 +12270,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12307,7 +12307,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12344,7 +12344,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12389,7 +12389,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12426,7 +12426,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12471,7 +12471,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12508,7 +12508,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12545,7 +12545,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12590,7 +12590,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12635,7 +12635,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12672,7 +12672,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12717,7 +12717,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12754,7 +12754,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12791,7 +12791,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12828,7 +12828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12873,7 +12873,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12918,7 +12918,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12963,7 +12963,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13000,7 +13000,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13045,7 +13045,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13090,7 +13090,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13127,7 +13127,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13172,7 +13172,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13217,7 +13217,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13254,7 +13254,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13291,7 +13291,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13336,7 +13336,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13373,7 +13373,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13418,7 +13418,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13455,7 +13455,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13500,7 +13500,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13537,7 +13537,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13574,7 +13574,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13619,7 +13619,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13656,7 +13656,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13701,7 +13701,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13738,7 +13738,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13783,7 +13783,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13828,7 +13828,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13865,7 +13865,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13910,7 +13910,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13947,7 +13947,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13992,7 +13992,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14029,7 +14029,7 @@
     },
     {
       "Route": "SchoolManagementSystem.bundle.scp.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14066,7 +14066,7 @@
     },
     {
       "Route": "SchoolManagementSystem.obhsv3xtbe.bundle.scp.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SchoolManagementSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14111,7 +14111,7 @@
     },
     {
       "Route": "SchoolManagementSystem.obhsv3xtbe.styles.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14156,7 +14156,7 @@
     },
     {
       "Route": "SchoolManagementSystem.styles.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SchoolManagementSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14193,7 +14193,7 @@
     },
     {
       "Route": "scss/login.90kfe1ewbk.scss",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14238,7 +14238,7 @@
     },
     {
       "Route": "scss/login.scss",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\login.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14275,7 +14275,7 @@
     },
     {
       "Route": "scss/style.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14312,7 +14312,7 @@
     },
     {
       "Route": "scss/style.css.cvalqpw18m.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14357,7 +14357,7 @@
     },
     {
       "Route": "scss/style.css.map",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14394,7 +14394,7 @@
     },
     {
       "Route": "scss/style.s1esxt00yz.css",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14439,7 +14439,7 @@
     },
     {
       "Route": "scss/style.scss",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14476,7 +14476,7 @@
     },
     {
       "Route": "scss/style.seaqw0xhn2.scss",
-      "AssetFile": "Y:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
+      "AssetFile": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {

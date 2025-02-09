@@ -150,7 +150,7 @@
             </a>
             <ul class="collapse list-unstyled ps-3" id="submenu7">
                 <li><a class="nav-link" href="student-search.html">Search</a></li>
-                <li><a class="nav-link" href="student-list.html">Student List</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Student" asp-action="StudentList">Student List</a></li>
                 <li><a class="nav-link" href="print-data.html">Print Data</a></li>
                 <li><a class="nav-link" href="download-data.html">Download Data</a></li>
                 <li><a class="nav-link" href="bulk-edit.html">Bulk Edit </a></li>
@@ -160,7 +160,7 @@
                 <li><a class="nav-link" href="admit-card.html">Admit Card</a></li>
                 <li><a class="nav-link" href="id-card.html">Id Card</a></li>
                 <li><a class="nav-link" href="certificate.html">Certificates</a></li>
-                <li><a class="nav-link" href="add-student.html">Add Students</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Student" asp-action="InsertStudent">Add Students</a></li>
                 <li><a class="nav-link" href="new-student.html">New Students</a></li>
                 <li><a class="nav-link" href="">Left Students</a></li>
                 <li><a class="nav-link" href="student-pick-up-resort.html">Student Pick Up Report</a></li>
@@ -610,4 +610,4 @@
         </li>
 
     </ul>
-</nav>
+    </nav>

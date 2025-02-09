@@ -27,7 +27,9 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public string AdmittedBy { get; set; }
         public Nullable<System.DateTime> AdmittedDate { get; set; }
         public string UpdatedBy { get; set; }
-        public Nullable<System.DateTime> UpdatedDate { get; set; }
+        public Nullable<System.DateTime> UpdatedDate { get; set; } 
+        public string CreateddBy { get; set; }
+        public Nullable<System.DateTime> CreatedDate { get; set; }
         public string DeletedBy { get; set; }
         public Nullable<System.DateTime> DeletedDate { get; set; }
 

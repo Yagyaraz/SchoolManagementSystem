@@ -4230,11 +4230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
+      "projectUniqueName": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
       "projectName": "SchoolManagementSystem.Data",
-      "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
+      "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
       "packagesPath": "C:\\Users\\Softech\\.nuget\\packages\\",
-      "outputPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\obj\\",
+      "outputPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

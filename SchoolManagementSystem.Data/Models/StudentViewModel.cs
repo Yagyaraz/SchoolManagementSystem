@@ -79,7 +79,7 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string DeletedBy { get; set; }
         public Nullable<System.DateTime> DeletedDate { get; set; }
 
-        List<PreviousSchoolDetailsViewModel> PreviousSchoolDetails { get; set; }
+       public PreviousSchoolDetailsViewModel PreviousSchoolDetailsList { get; set; }=new PreviousSchoolDetailsViewModel();
     }
     public class PreviousSchoolDetailsViewModel
     {
@@ -92,6 +92,6 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string PreviousSchoolRegistrationNumber { get; set; }
         public string PreviousSchoolPassedYear { get; set; }
         public string PreviousSchoolPercentage { get; set; }   
-        List<PreviousSchoolDetailsViewModel> PreviousSchoolDetails {  get; set; }
+        List<PreviousSchoolDetailsViewModel> PreviousSchoolDetails {  get; set; }=new List<PreviousSchoolDetailsViewModel>();
     }
 }

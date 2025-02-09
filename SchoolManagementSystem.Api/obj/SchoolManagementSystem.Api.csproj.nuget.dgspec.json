@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj": {}
+    "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj": {}
   },
   "projects": {
-    "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj": {
+    "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj",
+        "projectUniqueName": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj",
         "projectName": "SchoolManagementSystem.Api",
-        "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj",
+        "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj",
         "packagesPath": "C:\\Users\\Softech\\.nuget\\packages\\",
-        "outputPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\obj\\",
+        "outputPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj": {
-                "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj"
+              "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj": {
+                "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj"
               },
-              "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
-                "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj"
+              "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
+                "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj"
               }
             }
           }
@@ -57,6 +57,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -85,14 +101,14 @@
         }
       }
     },
-    "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj": {
+    "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj",
+        "projectUniqueName": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj",
         "projectName": "SchoolManagementSystem.BusinessLayer",
-        "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj",
+        "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Softech\\.nuget\\packages\\",
-        "outputPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\obj\\",
+        "outputPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
-                "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj"
+              "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
+                "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj"
               }
             }
           }
@@ -154,14 +170,14 @@
         }
       }
     },
-    "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
+    "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
+        "projectUniqueName": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
         "projectName": "SchoolManagementSystem.Data",
-        "projectPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
+        "projectPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
         "packagesPath": "C:\\Users\\Softech\\.nuget\\packages\\",
-        "outputPath": "Y:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\obj\\",
+        "outputPath": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SchoolManagementSystem.BusinessLayer.Interface;
+using SchoolManagementSystem.BusinessLayer.Repository;
 using SchoolManagementSystem.Data;
 using SchoolManagementSystem.Data.Data;
 using SchoolManagementSystem.Security;
@@ -44,6 +46,7 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 #region Register
 //builder.Services.AddScoped<ICommon, CommonRepository>();
+builder.Services.AddScoped<IStudent, StudentRepository>();
 
 #endregion
 builder.Services.AddAuthorization();
