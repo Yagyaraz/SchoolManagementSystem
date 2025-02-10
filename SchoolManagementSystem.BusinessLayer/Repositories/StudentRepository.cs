@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.Data.Data;
 using SchoolManagementSystem.Data.Data.Entities;
-using SchoolManagementSystem.Data.ViewModel;
+using SchoolManagementSystem.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -46,16 +46,35 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
 
         public async Task<StudentViewModel> GetStudentById(int? id)
         {
-            var student = await _context.Student.Where(x => x.StudentId == id).Select(x => new StudentViewModel()
-            {
-                StudentUniqueId = x.StudentUniqueId,
-                StudentName = x.StudentName,
-                StudentEmail = x.StudentName,
-                StudentImage = x.StudentImage,
-                StudentName_Nep = x.StudentName_Nep,
-                StudentIDUnique = x.StudentUniqueId,
-            }).FirstOrDefaultAsync() ?? new StudentViewModel();
-            return student;
+            var student = await _context.Student
+                .Where(x => x.StudentId == id)
+                .Select(x => new StudentViewModel()
+                {
+                    StudentUniqueId = x.StudentUniqueId,
+                    StudentName = x.StudentName,
+                    StudentImage = x.StudentImage,
+                    StudentName_Nep = x.StudentName_Nep,
+                    StudentIDUnique = x.StudentUniqueId,
+                    PreviousSchoolDetailsList = _context.PreviousSchoolDetails
+                        .Where(y => y.StudentId == id) 
+                        .Select(y => new PreviousSchoolDetailsViewModel()
+                        {
+                            Id = y.Id,
+                            PreviousSchoolName = y.PreviousSchoolName,
+                            PreviousSchoolLevel = y.PreviousSchoolLevel,
+                            PreviousSchoolUniversity = y.PreviousSchoolUniversity,
+                            PreviousSchoolType = y.PreviousSchoolType,
+                            PreviousSchoolSymbolNumber = y.PreviousSchoolSymbolNumber,
+                            PreviousSchoolRegistrationNumber = y.PreviousSchoolRegistrationNumber,
+                            PreviousSchoolPassedYear = y.PreviousSchoolPassedYear,
+                            PreviousSchoolPercentage = y.PreviousSchoolPercentage,
+                        }).ToList() ?? new List<PreviousSchoolDetailsViewModel>()
+                }).FirstOrDefaultAsync();
+
+            return student ?? new StudentViewModel();
+            //{
+            //    PreviousSchoolDetailsList = new List<PreviousSchoolDetailsViewModel>()
+            //};
         }
         public async Task<bool> InsertUpdateStudent(StudentViewModel model)
         {
@@ -173,21 +192,31 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             otherDetails.UserCode = model.UserCode;
                             _context.Entry(otherDetails).State = EntityState.Modified;
                         }
-
-                        var previousSchoolDetails = await _context.PreviousSchoolDetails.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
-                        if (previousSchoolDetails != null)
+                        foreach (var item in await _context.PreviousSchoolDetails.Where(x => x.StudentId == studentId).ToListAsync())
                         {
-                            //previousSchoolDetails.Id = model.Id;
-                            previousSchoolDetails.StudentId = studentId;
-                            previousSchoolDetails.PreviousSchoolName = model.PreviousSchoolDetailsList.PreviousSchoolName;
-                            previousSchoolDetails.PreviousSchoolLevel = model.PreviousSchoolDetailsList.PreviousSchoolLevel;
-                            previousSchoolDetails.PreviousSchoolUniversity = model.PreviousSchoolDetailsList.PreviousSchoolUniversity;
-                            previousSchoolDetails.PreviousSchoolType = model.PreviousSchoolDetailsList.PreviousSchoolType;
-                            previousSchoolDetails.PreviousSchoolSymbolNumber = model.PreviousSchoolDetailsList.PreviousSchoolSymbolNumber;
-                            previousSchoolDetails.PreviousSchoolRegistrationNumber = model.PreviousSchoolDetailsList.PreviousSchoolRegistrationNumber;
-                            previousSchoolDetails.PreviousSchoolPassedYear = model.PreviousSchoolDetailsList.PreviousSchoolPassedYear;
-                            previousSchoolDetails.PreviousSchoolPercentage = model.PreviousSchoolDetailsList.PreviousSchoolPercentage;
-                            _context.Entry(previousSchoolDetails).State = EntityState.Modified;
+                            if (!model.PreviousSchoolDetailsList.Any(x => x.Id == item.Id))
+                            {
+                                _context.PreviousSchoolDetails.Remove(item);
+                                await _context.SaveChangesAsync();
+                            }
+                        }
+                        foreach (var item in model.PreviousSchoolDetailsList)
+                        {
+                            var previousSchoolDetails = await _context.PreviousSchoolDetails.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
+                            if (previousSchoolDetails != null)
+                            {
+                                //previousSchoolDetails.Id = model.Id;
+                                previousSchoolDetails.StudentId = studentId;
+                                previousSchoolDetails.PreviousSchoolName = item.PreviousSchoolName;
+                                previousSchoolDetails.PreviousSchoolLevel = item.PreviousSchoolLevel;
+                                previousSchoolDetails.PreviousSchoolUniversity = item.PreviousSchoolUniversity;
+                                previousSchoolDetails.PreviousSchoolType = item.PreviousSchoolType;
+                                previousSchoolDetails.PreviousSchoolSymbolNumber = item.PreviousSchoolSymbolNumber;
+                                previousSchoolDetails.PreviousSchoolRegistrationNumber = item.PreviousSchoolRegistrationNumber;
+                                previousSchoolDetails.PreviousSchoolPassedYear = item.PreviousSchoolPassedYear;
+                                previousSchoolDetails.PreviousSchoolPercentage = item.PreviousSchoolPercentage;
+                                _context.Entry(previousSchoolDetails).State = EntityState.Modified;
+                            }
                         }
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
@@ -293,19 +322,19 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             UserCode = model.UserCode,
                         };
                         await _context.StudentOtherDetails.AddAsync(studentOtherDetails);
-                        if (model.PreviousSchoolDetailsList != null)
+                        foreach (var item in model.PreviousSchoolDetailsList)
                         {
                             var previouschoolDetail = new PreviousSchoolDetails()
                             {
                                 StudentId = student.StudentId,
-                                PreviousSchoolName = model.PreviousSchoolDetailsList.PreviousSchoolName,
-                                PreviousSchoolLevel = model.PreviousSchoolDetailsList.PreviousSchoolLevel,
-                                PreviousSchoolUniversity = model.PreviousSchoolDetailsList.PreviousSchoolUniversity,
-                                PreviousSchoolType = model.PreviousSchoolDetailsList.PreviousSchoolType,
-                                PreviousSchoolSymbolNumber = model.PreviousSchoolDetailsList.PreviousSchoolSymbolNumber,
-                                PreviousSchoolRegistrationNumber = model.PreviousSchoolDetailsList.PreviousSchoolRegistrationNumber,
-                                PreviousSchoolPassedYear = model.PreviousSchoolDetailsList.PreviousSchoolPassedYear,
-                                PreviousSchoolPercentage = model.PreviousSchoolDetailsList.PreviousSchoolPercentage,
+                                PreviousSchoolName = item.PreviousSchoolName,
+                                PreviousSchoolLevel = item.PreviousSchoolLevel,
+                                PreviousSchoolUniversity = item.PreviousSchoolUniversity,
+                                PreviousSchoolType = item.PreviousSchoolType,
+                                PreviousSchoolSymbolNumber = item.PreviousSchoolSymbolNumber,
+                                PreviousSchoolRegistrationNumber = item.PreviousSchoolRegistrationNumber,
+                                PreviousSchoolPassedYear = item.PreviousSchoolPassedYear,
+                                PreviousSchoolPercentage = item.PreviousSchoolPercentage,
                             };
                             await _context.PreviousSchoolDetails.AddAsync(previouschoolDetail);
                         }
@@ -323,10 +352,10 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
         }
         public async Task<bool> DeleteStudent(int? id)
         {
-            var student= await _context.Student.Where(x=>x.StudentId == id).FirstOrDefaultAsync();
+            var student = await _context.Student.Where(x => x.StudentId == id).FirstOrDefaultAsync();
             try
             {
-                if (student!=null)
+                if (student != null)
                 {
                     student.Status = false;
                     _context.Entry(student).State = EntityState.Modified;
@@ -338,8 +367,8 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                     return false;
                 }
             }
-            catch (Exception ex) 
-            { 
+            catch (Exception ex)
+            {
                 return false;
             }
         }

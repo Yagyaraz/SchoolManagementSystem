@@ -1,61 +1,66 @@
-﻿<div class="school-part">
-    <label>
-        Previous School <span class="small text-muted">
-            (If
-            any)
-        </span>&nbsp;&nbsp;
-        <a href="javascript:void()" class="text-decoration-none">
-            <i class="fa-regular fa-square-plus"></i> &nbsp; Add Next
-        </a>
-    </label>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Name<span style="color: red;">*</span></th>
-                <th>Level</th>
-                <th>University/Board</th>
-                <th>Type</th>
-                <th>Symbol number</th>
-                <th>Registration Number</th>
-                <th>Passed Year</th>
-                <th>Percentage</th>
-            </tr>
-        </thead>
-        <tbody class="previous-school-tbl-body">
-            <tr>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td>
-                    <select id=""
-                            class="form-control">
-                        <option value="Goverment">Goverment</option>
-                        <option value="Public">Public</option>
-                        <option value="Private">Private</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </td>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td>
-                    <input type="text" class="form-control">
-                </td>
-                <td class="delete-td d-flex align-items-center">
-                    <input type="number" class="form-control">
-                    <i class="fa fa-trash ms-2 text-danger" aria-hidden="true"
-                       id="remove-school-tr"></i>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+﻿@model PreviousSchoolDetailsViewModel
+@using HtmlHelpers.BeginCollectionItemCore
+@using (Html.BeginCollectionItem("PreviousSchoolDetailsList"))
+{
+    <div class="school-part">
+        <label>
+            Previous School <span class="small text-muted">
+                (If
+                any)
+            </span>&nbsp;&nbsp;
+            <a href="javascript:void()" class="text-decoration-none">
+                <i class="fa-regular fa-square-plus"></i> &nbsp; Add Next
+            </a>
+        </label>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name<span style="color: red;">*</span></th>
+                    <th>Level</th>
+                    <th>University/Board</th>
+                    <th>Type</th>
+                    <th>Symbol number</th>
+                    <th>Registration Number</th>
+                    <th>Passed Year</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody class="previous-school-tbl-body">
+                <tr>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolName" class="form-control">
+                    </td>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolLevel" class="form-control">
+                    </td>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolUniversity" class="form-control">
+                    </td>
+                    <td>
+                        <select id="" asp-for="PreviousSchoolType"
+                                class="form-control">
+                            <option value="Goverment">Goverment</option>
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolSymbolNumber" class="form-control">
+                    </td>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolRegistrationNumber" class="form-control">
+                    </td>
+                    <td>
+                        <input type="text" asp-for="PreviousSchoolPassedYear" class="form-control">
+                    </td>
+                    <td class="delete-td d-flex align-items-center">
+                        <input type="number" class="form-control" asp-for="PreviousSchoolPercentage">
+                        <i class="fa fa-trash ms-2 text-danger" aria-hidden="true"
+                           id="remove-school-tr"></i>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}

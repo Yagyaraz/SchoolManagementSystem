@@ -1,4 +1,4 @@
-﻿using SchoolManagementSystem.Data.ViewModel;
+﻿using SchoolManagementSystem.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

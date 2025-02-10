@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\areas\\admin\\views\\student\\insertstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\areas\\admin\\views\\student\\insertstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\areas\\admin\\views\\student\\_previousschooldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\areas\\admin\\views\\student\\_previousschooldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\areas\\admin\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\areas\\admin\\views\\student\\studentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_allcssfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_allcssfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_allscriptfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_allscriptfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\views\\shared\\_sidebarmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\views\\shared\\_sidebarmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\wwwroot\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\wwwroot\\scss\\style.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\interface\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\interface\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,139 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InsertStudent.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\InsertStudent.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\InsertStudent.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\InsertStudent.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\InsertStudent.cshtml",
-              "ViewState": "AgIAANsCAAAAAAAAAAAAAOACAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T12:06:05.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "style.scss",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\wwwroot\\scss\\style.scss",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\wwwroot\\scss\\style.scss",
-              "RelativeToolTip": "SchoolManagementSystem\\wwwroot\\scss\\style.scss",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-02-09T11:52:20.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_AllCssFile.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_AllCssFile.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_AllCssFile.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_AllCssFile.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_AllCssFile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:52:13.274Z",
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Models\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Models\\StudentViewModel.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Models\\StudentViewModel.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Data\\Models\\StudentViewModel.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAxwFYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T09:56:12.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentList.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\StudentList.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\StudentList.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\StudentList.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\StudentList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:45:58.656Z",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolManagementSystem\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:05:02.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAmwGYBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:04:36.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_AllScriptFile.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_AllScriptFile.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_AllScriptFile.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_AllScriptFile.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_AllScriptFile.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAqwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:56:31.536Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "12eda28b-6c86-4b6b-b134-3e438cf6dac9",
-        "Display": 1,
-        "X": 15,
-        "Y": 397,
-        "Width": 1030,
-        "Height": 627,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "Title": "IStudent.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Interface\\IStudent.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Interface\\IStudent.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Interface\\IStudent.cs",
+              "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Interface\\IStudent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:04:05.546Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_SideBarMenu.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_SideBarMenu.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_SideBarMenu.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_SideBarMenu.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_SideBarMenu.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_PreviousSchoolDetails.cshtml",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\_PreviousSchoolDetails.cshtml",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\_PreviousSchoolDetails.cshtml",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\_PreviousSchoolDetails.cshtml",
+              "RelativeToolTip": "SchoolManagementSystem\\Areas\\Admin\\Views\\Student\\_PreviousSchoolDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:50:17.952Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "956d0d1e-53a3-48b2-af00-a54cdf8f82da",
-        "Display": 1,
-        "X": 738,
-        "Y": -49,
-        "Width": 1018,
-        "Height": 653,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SchoolManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:47:18.729Z",
+              "WhenOpened": "2025-02-10T09:45:39.164Z",
               "EditorCaption": ""
             }
           ]

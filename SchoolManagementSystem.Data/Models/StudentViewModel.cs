@@ -6,11 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolManagementSystem.Data.ViewModel
+namespace SchoolManagementSystem.Data.Model
 {
     public class StudentViewModel
     {
-       
+       public StudentViewModel()
+        {
+            PreviousSchoolDetailsList = new List<PreviousSchoolDetailsViewModel>();
+        }
         public int StudentId { get; set; }
         public string StudentUniqueId { get; set; }
         public string StudentName { get; set; }
@@ -79,11 +82,12 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string DeletedBy { get; set; }
         public Nullable<System.DateTime> DeletedDate { get; set; }
 
-       public PreviousSchoolDetailsViewModel PreviousSchoolDetailsList { get; set; }=new PreviousSchoolDetailsViewModel();
+       public  List<PreviousSchoolDetailsViewModel> PreviousSchoolDetailsList { get; set; }=new List< PreviousSchoolDetailsViewModel>();
     }
     public class PreviousSchoolDetailsViewModel
     {
         public int Id { get; set; }
+        public int StudentId { get; set; }
         public string PreviousSchoolName { get; set; }
         public string PreviousSchoolLevel { get; set; }
         public string PreviousSchoolUniversity { get; set; }
@@ -92,6 +96,5 @@ namespace SchoolManagementSystem.Data.ViewModel
         public string PreviousSchoolRegistrationNumber { get; set; }
         public string PreviousSchoolPassedYear { get; set; }
         public string PreviousSchoolPercentage { get; set; }   
-        List<PreviousSchoolDetailsViewModel> PreviousSchoolDetails {  get; set; }=new List<PreviousSchoolDetailsViewModel>();
     }
 }

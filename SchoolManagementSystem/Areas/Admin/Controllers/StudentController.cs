@@ -3,7 +3,7 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.BusinessLayer.Repository;
 using SchoolManagementSystem.Data.Data;
-using SchoolManagementSystem.Data.ViewModel;
+using SchoolManagementSystem.Data.Model;
 
 namespace SchoolManagementSystem.Areas.Admin.Controllers
 {
