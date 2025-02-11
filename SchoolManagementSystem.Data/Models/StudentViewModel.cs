@@ -19,7 +19,7 @@ namespace SchoolManagementSystem.Data.Model
         public string StudentName { get; set; }
         public string StudentName_Nep { get; set; }
         public int Gender { get; set; }
-        public DateTime DOB_AD { get; set; }
+        public DateTime? DOB_AD { get; set; }
         public string DOB_BS { get; set; }
         public int? BloodGroup { get; set; }
         public string StudentImage { get; set; }
@@ -44,6 +44,7 @@ namespace SchoolManagementSystem.Data.Model
         public string CurrentAddress { get; set; }       
         public int Class { get; set; }
         public int Section { get; set; }
+        public string LastInsertedRollNo { get; set; }
         public int AdmittedYear { get; set; }
         public string ClassRollNo { get; set; }
         public string SymbolNumber { get; set; }

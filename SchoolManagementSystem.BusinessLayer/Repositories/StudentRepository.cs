@@ -28,6 +28,9 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                  join p in _context.StudentParentsDetails
                                  on s.StudentId equals p.StudentId into parents
                                  from p in parents.DefaultIfEmpty()
+                                 join a in _context.StudentAccountInfo
+                                 on s.StudentId equals a.StudentId into account
+                                 from a in account.DefaultIfEmpty()
                                  where s.Status == true
                                  select new StudentViewModel
                                  {
@@ -38,7 +41,8 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                      Gender = s.Gender,
                                      StudentImage = s.StudentImage,
                                      FatherCell = p != null ? p.FatherCell : null,
-                                     MotherCell = p != null ? p.MotherCell : null
+                                     MotherCell = p != null ? p.MotherCell : null,
+                                     StudentPreviousCode = a != null ? a.StudentPreviousCode : null,
                                  }).ToListAsync() ?? new List<StudentViewModel>();
 
             return student;
@@ -46,36 +50,112 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
 
         public async Task<StudentViewModel> GetStudentById(int? id)
         {
-            var student = await _context.Student
-                .Where(x => x.StudentId == id)
-                .Select(x => new StudentViewModel()
-                {
-                    StudentUniqueId = x.StudentUniqueId,
-                    StudentName = x.StudentName,
-                    StudentImage = x.StudentImage,
-                    StudentName_Nep = x.StudentName_Nep,
-                    StudentIDUnique = x.StudentUniqueId,
-                    PreviousSchoolDetailsList = _context.PreviousSchoolDetails
-                        .Where(y => y.StudentId == id) 
-                        .Select(y => new PreviousSchoolDetailsViewModel()
-                        {
-                            Id = y.Id,
-                            PreviousSchoolName = y.PreviousSchoolName,
-                            PreviousSchoolLevel = y.PreviousSchoolLevel,
-                            PreviousSchoolUniversity = y.PreviousSchoolUniversity,
-                            PreviousSchoolType = y.PreviousSchoolType,
-                            PreviousSchoolSymbolNumber = y.PreviousSchoolSymbolNumber,
-                            PreviousSchoolRegistrationNumber = y.PreviousSchoolRegistrationNumber,
-                            PreviousSchoolPassedYear = y.PreviousSchoolPassedYear,
-                            PreviousSchoolPercentage = y.PreviousSchoolPercentage,
-                        }).ToList() ?? new List<PreviousSchoolDetailsViewModel>()
-                }).FirstOrDefaultAsync();
+            var student = await (from s in _context.Student
+                                 join p in _context.StudentParentsDetails
+                                 on s.StudentId equals p.StudentId into parents
+                                 from p in parents.DefaultIfEmpty()
+                                 join a in _context.StudentAccountInfo
+                                 on s.StudentId equals a.StudentId into account
+                                 from a in account.DefaultIfEmpty()
+                                 join ac in _context.StudentAcademicInfo
+                                 on s.StudentId equals ac.StudentId into academic
+                                 from ac in academic.DefaultIfEmpty()
+                                 join ad in _context.StudentAddress
+                                 on s.StudentId equals ad.StudentId into address
+                                 from ad in address.DefaultIfEmpty()
+                                 join o in _context.StudentOtherDetails
+                                 on s.StudentId equals o.StudentId into other
+                                 from o in other.DefaultIfEmpty()
+                                 where s.StudentId == id
+                                 select new StudentViewModel()
+                                 {
+                                     StudentId = s.StudentId,
+                                     StudentName = s.StudentName,
+                                     StudentImage = s.StudentImage,
+                                     StudentName_Nep = s.StudentName_Nep,
+                                     Gender=s.Gender,
+                                     DOB_AD=s.DOB_AD,
+                                     DOB_BS=s.DOB_BS,
+                                     BloodGroup=s.BloodGroup,
+                                     PhoneNumber=s.PhoneNumber,
+                                     Nationality=s.Nationality,
+                                     Status=s.Status,
+                                     AdmittedBy=s.AdmittedBy,
+                                     AdmittedDate=s.AdmittedDate,
+                                     //AccountInfo
+                                     LastInsertedId=a.LastInsertedId,
+                                     StudentUniqueId=a.StudentIDUnique,
+                                     StudentPreviousCode=a.StudentPreviousCode,
+                                     StudentEmail=a.StudentEmail,
+                                     BusRoute=a.BusRoute,
+                                     BusStop=a.BusStop,
+                                     BusRouteEvening=a.BusRouteEvening,
+                                     BusStopEvening=a.BusStopEvening,
+                                     //Academicinfo
+                                     Class=ac.Class,
+                                     Section=ac.Section,
+                                     AdmittedYear=ac.AdmittedYear,
+                                     LastInsertedRollNo=ac.LastInsertedRollNo,
+                                     ClassRollNo=ac.ClassRollNo,                                 
+                                     Team = ac.Team,
+                                     Coaching = ac.Coaching,
+                                     TransportationMode = ac.TransportationMode,
+                                     TeaBreakfast = ac.TeaBreakfast,
+                                     LunchSnacks = ac.LunchSnacks,
+                                     Vegetarian = ac.Vegetarian,
+                                     EnrollmentType = ac.EnrollmentType,
+                                     IEMISNumber = ac.IEMISNumber,
+                                     //ParentsDetails
+                                     FatherName = p.FatherName,
+                                     FatherImage = p.FatherImage,
+                                     FatherOccupation = p.FatherOccupation,
+                                     FatherCell = p.FatherCell,
+                                     FatherEmail = p.FatherEmail,
+                                     MotherName = p.MotherName,
+                                     MotherImage = p.MotherImage,
+                                     MotherOccupation = p.MotherOccupation,
+                                     MotherCell = p.MotherCell,
+                                     MotherEmail = p.MotherEmail,
+                                     GuardianName = p.GuardianName,
+                                     GuardianRelation = p.GuardianRelation,
+                                     GuardianImage = p.GuardianImage,
+                                     GuardianCell = p.GuardianCell,
+                                     //OtherDetails
+                                     Religion = o.Religion,
+                                     Ethnicity = o.Ethnicity,
+                                     Citizenship = o.Citizenship,
+                                     DifferentlyAbled = o.DifferentlyAbled,
+                                     UserCode = o.UserCode,
+                                     //addressInfo
+                                     PermanentProvince = ad.PermanentProvince,
+                                     PermanentDistrict = ad.PermanentDistrict,
+                                     PermanentMunicipality = ad.PermanentMunicipality,
+                                     PermanentAddress = ad.PermanentAddress,
+                                     CurrentProvince = ad.CurrentProvince,
+                                     CurrentDistrict = ad.CurrentDistrict,
+                                     CurrentMunicipality = ad.CurrentMunicipality,
+                                     CurrentAddress = ad.CurrentAddress,
+                                     
+                                     PreviousSchoolDetailsList = _context.PreviousSchoolDetails
+                            .Where(y => y.StudentId == s.StudentId)
+                            .Select(y => new PreviousSchoolDetailsViewModel()
+                            {
+                                Id = y.Id,
+                                StudentId = y.StudentId,
+                                PreviousSchoolName = y.PreviousSchoolName,
+                                PreviousSchoolLevel = y.PreviousSchoolLevel,
+                                PreviousSchoolUniversity = y.PreviousSchoolUniversity,
+                                PreviousSchoolType = y.PreviousSchoolType,
+                                PreviousSchoolSymbolNumber = y.PreviousSchoolSymbolNumber,
+                                PreviousSchoolRegistrationNumber = y.PreviousSchoolRegistrationNumber,
+                                PreviousSchoolPassedYear = y.PreviousSchoolPassedYear,
+                                PreviousSchoolPercentage = y.PreviousSchoolPercentage,
+                            }).ToList() ?? new List<PreviousSchoolDetailsViewModel>(),
+                                 }).FirstOrDefaultAsync();
 
             return student ?? new StudentViewModel();
-            //{
-            //    PreviousSchoolDetailsList = new List<PreviousSchoolDetailsViewModel>()
-            //};
         }
+
         public async Task<bool> InsertUpdateStudent(StudentViewModel model)
         {
             using (var transaction = await _context.Database.BeginTransactionAsync())
@@ -99,7 +179,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             student.StudentImage = model.StudentImage;
                             student.PhoneNumber = model.PhoneNumber;
                             student.Nationality = model.Nationality;
-                            student.Status = true;
+                            student.Status = model.Status;
                             student.AdmittedBy = model.AdmittedBy;
                             student.AdmittedDate = model.AdmittedDate;
                             student.CreateddBy = model.UpdatedBy;
@@ -127,6 +207,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             parents.GuardianRelation = model.GuardianRelation;
                             parents.GuardianImage = model.GuardianImage;
                             parents.GuardianCell = model.GuardianCell;
+                            parents.MotherEmail = model.MotherEmail;
                             _context.Entry(parents).State = EntityState.Modified;
                         }
                         var accountInfo = await _context.StudentAccountInfo.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
@@ -140,6 +221,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             accountInfo.StudentEmail = model.StudentEmail;
                             accountInfo.BusRoute = model.BusRoute;
                             accountInfo.BusStop = model.BusStop;
+                            accountInfo.StudentPreviousCode = model.StudentPreviousCode;
                             accountInfo.BusRouteEvening = model.BusRouteEvening;
                             accountInfo.BusStopEvening = model.BusStopEvening;
                             _context.Entry(accountInfo).State = EntityState.Modified;
@@ -170,6 +252,8 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             academicInfo.ClassRollNo = model.ClassRollNo;
                             academicInfo.SymbolNumber = model.SymbolNumber;
                             academicInfo.Team = model.Team;
+                            academicInfo.LastInsertedRollNo=model.LastInsertedRollNo;
+                            academicInfo.SymbolNumber = model.SymbolNumber;
                             academicInfo.Coaching = model.Coaching;
                             academicInfo.TransportationMode = model.TransportationMode;
                             academicInfo.TeaBreakfast = model.TeaBreakfast;
@@ -237,7 +321,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             StudentImage = model.StudentImage,
                             PhoneNumber = model.PhoneNumber,
                             Nationality = model.Nationality,
-                            Status = model.Status,
+                            Status = true,
                             AdmittedBy = model.AdmittedBy,
                             AdmittedDate = model.AdmittedDate,
                             UpdatedBy = model.UpdatedBy,
@@ -250,6 +334,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
 
                         var accountinfo = new Student_AccountInfo()
                         {
+                            StudentId = student.StudentId,
                             LastInsertedId = model.LastInsertedId,
                             StudentIDUnique = model.StudentIDUnique,
                             StudentPreviousCode = model.StudentPreviousCode,
@@ -258,6 +343,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             BusStop = model.BusStop,
                             BusRouteEvening = model.BusRouteEvening,
                             BusStopEvening = model.BusStopEvening,
+                           
                         };
                         await _context.StudentAccountInfo.AddAsync(accountinfo);
                         var studentAddress = new Student_Address()
