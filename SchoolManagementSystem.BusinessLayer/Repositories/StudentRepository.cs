@@ -35,7 +35,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                  select new StudentViewModel
                                  {
                                      StudentId = s.StudentId,
-                                     StudentUniqueId = s.StudentUniqueId,
+                                     StudentIDUnique = s.StudentUniqueId,
                                      StudentName = s.StudentName,
                                      StudentName_Nep = s.StudentName_Nep,
                                      Gender = s.Gender,
@@ -84,7 +84,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                      AdmittedDate=s.AdmittedDate,
                                      //AccountInfo
                                      LastInsertedId=a.LastInsertedId,
-                                     StudentUniqueId=a.StudentIDUnique,
+                                     StudentIDUnique=a.StudentIDUnique,
                                      StudentPreviousCode=a.StudentPreviousCode,
                                      StudentEmail=a.StudentEmail,
                                      BusRoute=a.BusRoute,
@@ -105,6 +105,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                      Vegetarian = ac.Vegetarian,
                                      EnrollmentType = ac.EnrollmentType,
                                      IEMISNumber = ac.IEMISNumber,
+                                     SymbolNumber=ac.SymbolNumber,
                                      //ParentsDetails
                                      FatherName = p.FatherName,
                                      FatherImage = p.FatherImage,
@@ -169,7 +170,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                         if (student != null)
                         {
                             student.StudentId = model.StudentId;
-                            student.StudentUniqueId = model.StudentUniqueId;
+                            student.StudentUniqueId = model.StudentIDUnique;
                             student.StudentName = model.StudentName;
                             student.StudentName_Nep = model.StudentName_Nep;
                             student.Gender = model.Gender;
@@ -179,7 +180,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             student.StudentImage = model.StudentImage;
                             student.PhoneNumber = model.PhoneNumber;
                             student.Nationality = model.Nationality;
-                            student.Status = model.Status;
+                            student.Status =/* model.Status*/ true;
                             student.AdmittedBy = model.AdmittedBy;
                             student.AdmittedDate = model.AdmittedDate;
                             student.CreateddBy = model.UpdatedBy;
@@ -311,7 +312,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                         var student = new Student()
                         {
                             StudentId = model.StudentId,
-                            StudentUniqueId = model.StudentUniqueId,
+                            StudentUniqueId = model.StudentIDUnique,
                             StudentName = model.StudentName,
                             StudentName_Nep = model.StudentName_Nep,
                             Gender = model.Gender,

@@ -15,7 +15,6 @@ namespace SchoolManagementSystem.Data.Model
             PreviousSchoolDetailsList = new List<PreviousSchoolDetailsViewModel>();
         }
         public int StudentId { get; set; }
-        public string StudentUniqueId { get; set; }
         public string StudentName { get; set; }
         public string StudentName_Nep { get; set; }
         public int Gender { get; set; }

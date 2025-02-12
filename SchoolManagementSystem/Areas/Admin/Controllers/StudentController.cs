@@ -32,7 +32,7 @@ namespace SchoolManagementSystem.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> InsertStudent(StudentViewModel model)
         {
-            var error = ModelState.Where(x => x.Value.Errors.Count > 0).Select(x => new { x.Key, x.Value.Errors }).ToArray();
+            var error = ModelState.Where(x => x.Value.Errors.Count > 0).Select(x => new {x.Key, x.Value.Errors }).ToArray();
             if(ModelState.IsValid) 
             {
                 var result = await _student.InsertUpdateStudent(model);
