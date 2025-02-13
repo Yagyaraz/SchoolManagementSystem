@@ -10,7 +10,6 @@ using System.Text.Json;
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("SchoolManagementSystemContextConnection") ?? throw new InvalidOperationException("Connection string 'DynamicWebsiteContextConnection' not found.");
 
-//builder.Services.AddDbContext<PlanningContext>(options => options.UseSqlServer(connectionString));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer((connectionString)), ServiceLifetime.Transient);
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true).AddDefaultTokenProviders().AddDefaultUI().AddEntityFrameworkStores<ApplicationDbContext>();
 

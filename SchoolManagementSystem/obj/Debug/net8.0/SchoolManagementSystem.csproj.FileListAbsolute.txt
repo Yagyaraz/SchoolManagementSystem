@@ -607,3 +607,4 @@ D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\refint\SchoolM
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.pdb
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.genruntimeconfig.cache
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\ref\SchoolManagementSystem.dll
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cs
