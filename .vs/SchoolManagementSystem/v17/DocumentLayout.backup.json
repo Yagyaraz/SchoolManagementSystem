@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\SchoolManagementSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\appsettings.json",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\appsettings.json",
-              "RelativeToolTip": "SchoolManagementSystem.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T11:22:41.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Program.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Api\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T11:21:39.952Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
