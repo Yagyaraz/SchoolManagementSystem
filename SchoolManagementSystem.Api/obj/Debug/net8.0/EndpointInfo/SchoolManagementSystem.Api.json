@@ -47,6 +47,72 @@
           }
         }
       }
+    },
+    "/api/Admin/Student/StudentIndex": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/Student/GetStudent/{id}": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/Student/CreateStudent": {
+      "post": {
+        "tags": [
+          "Student"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -66,6 +132,343 @@
           "password": {
             "minLength": 1,
             "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PreviousSchoolDetailsViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "previousSchoolName": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolUniversity": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolType": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolSymbolNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolRegistrationNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolPassedYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "previousSchoolPercentage": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentViewModel": {
+        "type": "object",
+        "properties": {
+          "studentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentName_Nep": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "doB_AD": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "doB_BS": {
+            "type": "string",
+            "nullable": true
+          },
+          "bloodGroup": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "studentImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastInsertedId": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentIDUnique": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentPreviousCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "busRoute": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "busStop": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "busRouteEvening": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "busStopEvening": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "nationality": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "status": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "permanentProvince": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "permanentDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "permanentMunicipality": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "permanentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "currentProvince": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "currentDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "currentMunicipality": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "currentAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "class": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "section": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lastInsertedRollNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "admittedYear": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "classRollNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "symbolNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "team": {
+            "type": "string",
+            "nullable": true
+          },
+          "coaching": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "transportationMode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "teaBreakfast": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lunchSnacks": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "vegetarian": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "enrollmentType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "iemisNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherOccupation": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherCell": {
+            "type": "string",
+            "nullable": true
+          },
+          "fatherEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherOccupation": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherCell": {
+            "type": "string",
+            "nullable": true
+          },
+          "motherEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianName": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianRelation": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "guardianCell": {
+            "type": "string",
+            "nullable": true
+          },
+          "religion": {
+            "type": "string",
+            "nullable": true
+          },
+          "ethnicity": {
+            "type": "string",
+            "nullable": true
+          },
+          "citizenship": {
+            "type": "string",
+            "nullable": true
+          },
+          "differentlyAbled": {
+            "type": "string",
+            "nullable": true
+          },
+          "userCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "admittedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "admittedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "updatedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "deletedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "deletedDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "previousSchoolDetailsList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PreviousSchoolDetailsViewModel"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

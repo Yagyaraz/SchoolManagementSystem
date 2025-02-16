@@ -1,4 +1,5 @@
 ﻿using SchoolManagementSystem.Data.Model;
+using SchoolManagementSystem.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,10 @@ namespace SchoolManagementSystem.BusinessLayer.Interface
 {
     public interface IStudent
     {
-        Task<List<StudentViewModel>> GetAllStudentList();
-        Task<StudentViewModel> GetStudentById(int? id);
-        Task<bool>InsertUpdateStudent(StudentViewModel model);
-        Task<bool>DeleteStudent(int? id);
+        Task<Result<List<StudentViewModel>>> GetAllStudentList();
+        Task<Result<StudentViewModel>> GetStudentById(int? id);
+        Task<Result<bool>>InsertUpdateStudent(StudentViewModel model);
+        Task<Result<bool>>DeleteStudent(int? id);
 
     }
 }

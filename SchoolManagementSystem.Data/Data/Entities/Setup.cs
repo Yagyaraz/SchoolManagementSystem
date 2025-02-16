@@ -76,66 +76,67 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public bool? Status { get; set; }
-        public class Section
-        {
-            [Key]
-            public int Id { get; set; }
-            public string SectionName { get; set; }
-            public bool? Status { get; set; }
-
-        }
-        public class Program
-        {
-            [Key]
-            public int Id { get; set; }
-            public string ProgramName { get; set; }
-            public bool? Status { get; set; }
-
-        }
-        public class TeamCategory
-        {
-            [Key]
-            public int Id { get; set; }
-            public string CategoryName { get; set; }
-            public bool? Status { get; set; }
-        }
-        public class AssignmentCategory
-        {
-            [Key]
-            public int Id { get; set; }
-            public string AssignmentCategoryName { get; set; }
-            public bool? Status { get; set; }
-
-        }
-        public class StudentGroup
-        {
-            [Key]
-            public int Id { get; set; }
-            public string GroupName { get; set; }
-            public int YearId { get; set; }
-            public bool? Status { get; set; }
-        }
-        public class GroupClassAssociation
-        {
-            [Key]
-            public int Id { get; set; }
-            public string Group { get; set; }
-            public string Class { get; set; }
-            public string Subject { get; set; }
-            public string Year { get; set; }
-            public bool? Status { get; set; }
-
-        }
-        public class BankDetails
-        {
-            [Key]
-            public int Id { get; set; }
-            public string BankName { get; set; }
-            public string Branch { get; set; }
-            public string AcccountNumber { get; set; }
-            public string QRCode { get; set; }
-            public bool? Status { get; set; }
-        }
     }
+    public class Section
+    {
+        [Key]
+        public int Id { get; set; }
+        public string SectionName { get; set; }
+        public bool? Status { get; set; }
+
+    }
+    public class Program
+    {
+        [Key]
+        public int Id { get; set; }
+        public string ProgramName { get; set; }
+        public bool? Status { get; set; }
+
+    }
+    public class TeamCategory
+    {
+        [Key]
+        public int Id { get; set; }
+        public string CategoryName { get; set; }
+        public bool? Status { get; set; }
+    }
+    public class AssignmentCategory
+    {
+        [Key]
+        public int Id { get; set; }
+        public string AssignmentCategoryName { get; set; }
+        public bool? Status { get; set; }
+
+    }
+    public class StudentGroup
+    {
+        [Key]
+        public int Id { get; set; }
+        public string GroupName { get; set; }
+        public int YearId { get; set; }
+        public bool? Status { get; set; }
+    }
+    public class GroupClassAssociation
+    {
+        [Key]
+        public int Id { get; set; }
+        public string Group { get; set; }
+        public string Class { get; set; }
+        public string Subject { get; set; }
+        public string Year { get; set; }
+        public bool? Status { get; set; }
+
+    }
+    public class BankDetails
+    {
+        [Key]
+        public int Id { get; set; }
+        public string BankName { get; set; }
+        public string Branch { get; set; }
+        public string AcccountNumber { get; set; }
+        public string QRCode { get; set; }
+        public bool? Status { get; set; }
+    }
+
 }
 

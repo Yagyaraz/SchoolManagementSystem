@@ -148,6 +148,6 @@ namespace SchoolManagementSystem.Data.Models
         public string Branch { get; set; }
         public string AcccountNumber { get; set; }
         public string QRCode { get; set; }
-        public bool Status { get; set; }
+        public bool? Status { get; set; }
     }
 }

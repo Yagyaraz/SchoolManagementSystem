@@ -1,4 +1,5 @@
-﻿using SchoolManagementSystem.BusinessLayer.Interface;
+﻿using Microsoft.EntityFrameworkCore;
+using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.Data.Data;
 using SchoolManagementSystem.Data.Models;
 using System;
@@ -6,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace SchoolManagementSystem.BusinessLayer.Repositories
 {
@@ -18,14 +20,30 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
             _context = context;
         }
         #region BusRoute
-        public Task<BusRouteViewModel> GetBusRouteById(int? id)
+        public async Task<BusRouteViewModel> GetBusRouteById(int? id)
         {
-            throw new NotImplementedException();
+           var data= await _context.BusRoute.Where(x => x.Id == id).Select(x=>new BusRouteViewModel()
+           {
+               Id = x.Id,
+               DriverName = x.DriverName,
+               BusNo = x.BusNo,
+               AssistantName= x.AssistantName,
+               AssistantPhone= x.AssistantPhone,
+               Teacher=x.Teacher,
+               Status=x.Status,
+           }).FirstOrDefaultAsync()?? new BusRouteViewModel();
+            return data;
         }
 
-        public Task<List<BusRouteViewModel>> GetBusRouteList()
+        public async Task<List<BusRouteViewModel>> GetBusRouteList()
         {
-            throw new NotImplementedException();
+            var list = await _context.BusRoute.Select(x => new BusRouteViewModel()
+            {
+                Id = x.Id,
+                DriverName = x.DriverName,
+                BusNo = x.BusNo,
+            }).ToListAsync() ?? new List<BusRouteViewModel>();
+            return list;
         }
         public Task<bool> InsertUpdateBusRoute(BusRouteViewModel model)
         {
@@ -37,15 +55,30 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
             throw new NotImplementedException();
         }
         #endregion
-        #region BusMap
-        public Task<List<RouteMapViewModel>> GetRouteMapList()
+        #region Route Map
+        public async Task<List<RouteMapViewModel>> GetRouteMapList()
         {
-            throw new NotImplementedException();
+            var list = await _context.RouteMap.Select(x => new RouteMapViewModel()
+            {
+                Id = x.Id,
+                BusRouteId = x.BusRouteId,
+                GPSDevice= x.GPSDevice,
+            }).ToListAsync() ?? new List<RouteMapViewModel>();
+            return list;
         }
 
-        public Task<RouteMapViewModel> GetRouteMapById(int? id)
+        public async Task<RouteMapViewModel> GetRouteMapById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.RouteMap.Where(x => x.Id == id).Select(x => new RouteMapViewModel()
+            {
+                Id = x.Id,
+                BusRouteId = x.BusRouteId,
+                GPSDevice= x.GPSDevice,
+                GPSDeviceId= x.GPSDevice,
+                Status= x.Status,
+
+            }).FirstOrDefaultAsync() ?? new RouteMapViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateRouteMap(RouteMapViewModel model)
@@ -68,25 +101,42 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion       
+        #region About
         public Task<AboutViewModel> GetAboutUs(int? id)
         {
             throw new NotImplementedException();
         }
-
         public Task<bool> InsertUpdateAboutUs(AboutViewModel model)
         {
             throw new NotImplementedException();
         }
-
-        public Task<List<SubjectViewModel>> GetSubjectList()
+        #endregion
+        #region Subject
+        public async Task<List<SubjectViewModel>> GetSubjectList()
         {
-            throw new NotImplementedException();
+            var list = await _context.Subject.Select(x => new SubjectViewModel()
+            {
+                Id = x.Id,
+                SubjectName = x.SubjectName,
+                ShortCode = x.ShortCode,
+            }).ToListAsync() ?? new List<SubjectViewModel>();
+            return list;
         }
 
-        public Task<SubjectViewModel> GetSubjectById(int? id)
+        public async Task<SubjectViewModel> GetSubjectById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.Subject.Where(x => x.Id == id).Select(x => new SubjectViewModel()
+            {
+                Id = x.Id,
+                SubjectName = x.SubjectName,
+                ShortCode = x.ShortCode,
+                TheoryCredit = x.TheoryCredit,
+                PracticalCredit = x.TheoryCredit,
+                CalculateMarks = x.CalculateMarks,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new SubjectViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateSubject(SubjectViewModel model)
@@ -98,15 +148,21 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion
+        #region Class
         public Task<List<ClassViewModel>> GetClassList()
         {
             throw new NotImplementedException();
         }
 
-        public Task<ClassViewModel> GetClassById(int? id)
+        public async Task<ClassViewModel> GetClassById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.Classe.Where(x => x.Id == id).Select(x => new ClassViewModel()
+            {
+                Id = x.Id,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new ClassViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateClass(ClassViewModel model)
@@ -118,15 +174,22 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion
+        #region Section
         public Task<List<SectionViewModel>> GetSectionList()
         {
             throw new NotImplementedException();
         }
 
-        public Task<SectionViewModel> GetSectionById(int? id)
+        public async Task<SectionViewModel> GetSectionById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.Section.Where(x => x.Id == id).Select(x => new SectionViewModel()
+            {
+                Id = x.Id,
+                SectionName = x.SectionName,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new SectionViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateSection(SectionViewModel model)
@@ -138,15 +201,28 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
-        public Task<List<ProgramViewModel>> GetProgramList()
+        #endregion
+        #region Program
+        public  async Task<List<ProgramViewModel>> GetProgramList()
         {
-            throw new NotImplementedException();
+            var list = await _context.Program.Select(x => new ProgramViewModel()
+            {
+                Id = x.Id,
+                ProgramName = x.ProgramName,
+                Status = x.Status,
+            }).ToListAsync() ?? new List<ProgramViewModel>();
+            return list;
         }
 
-        public Task<ProgramViewModel> GetProgramById(int? id)
+        public async Task<ProgramViewModel> GetProgramById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.Program.Where(x => x.Id == id).Select(x => new ProgramViewModel()
+            {
+                Id = x.Id,
+                ProgramName = x.ProgramName,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new ProgramViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateProgram(ProgramViewModel model)
@@ -158,15 +234,22 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion
+        #region Team
         public Task<List<TeamCategoryViewModel>> GetTeamCategoryList()
         {
             throw new NotImplementedException();
         }
 
-        public Task<TeamCategoryViewModel> GetTeamCategoryById(int? id)
+        public async Task<TeamCategoryViewModel> GetTeamCategoryById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.TeamCategory.Where(x => x.Id == id).Select(x => new TeamCategoryViewModel()
+            {
+                Id = x.Id,
+                CategoryName = x.CategoryName,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new TeamCategoryViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateTeamCategory(TeamCategoryViewModel model)
@@ -178,15 +261,22 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
+        #endregion
+        #region Assignment Category
         public Task<List<AssignmentCategoryViewModel>> GetAssignmentCategoryList()
         {
             throw new NotImplementedException();
         }
 
-        public Task<AssignmentCategoryViewModel> GetAssignmentCategoryById(int? id)
+        public async Task<AssignmentCategoryViewModel> GetAssignmentCategoryById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.AssignmentCategory.Where(x => x.Id == id).Select(x => new AssignmentCategoryViewModel()
+            {
+                Id = x.Id,
+                AssignmentCategoryName = x.AssignmentCategoryName,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new AssignmentCategoryViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateAssignmentCategory(AssignmentCategoryViewModel model)
@@ -198,15 +288,28 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
-        public Task<List<StudentGroupViewModel>> GetStudentGroupList()
+        #endregion
+        #region Student Group
+        public async Task<List<StudentGroupViewModel>> GetStudentGroupList()
         {
-            throw new NotImplementedException();
+            var list = await _context.StudentGroup.Select(x => new StudentGroupViewModel()
+            {
+                Id = x.Id,
+                GroupName=x.GroupName,
+            }).ToListAsync() ?? new List<StudentGroupViewModel>();
+            return list;
         }
 
-        public Task<StudentGroupViewModel> GetStudentGroupById(int? id)
+        public async Task<StudentGroupViewModel> GetStudentGroupById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.StudentGroup.Where(x => x.Id == id).Select(x => new StudentGroupViewModel()
+            {
+                Id = x.Id,
+                GroupName = x.GroupName,
+                YearId=x.YearId,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new StudentGroupViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateStudentGroup(StudentGroupViewModel model)
@@ -219,14 +322,25 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
             throw new NotImplementedException();
         }
 
+        #endregion
+        #region Group Assocation
         public Task<List<GroupClassAssociationViewModel>> GetGroupClassAssociationList()
         {
             throw new NotImplementedException();
         }
 
-        public Task<GroupClassAssociationViewModel> GetGroupClassAssociationById(int? id)
+        public async Task<GroupClassAssociationViewModel> GetGroupClassAssociationById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.GroupClassAssociation.Where(x => x.Id == id).Select(x => new GroupClassAssociationViewModel()
+            {
+                Id = x.Id,
+                Group=x.Group,
+                Class=x.Class,
+                Subject=x.Subject,
+                Year=x.Year,
+                Status = x.Status,
+            }).FirstOrDefaultAsync() ?? new GroupClassAssociationViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateGroupClassAssociation(GroupClassAssociationViewModel model)
@@ -238,15 +352,34 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-
-        public Task<List<BankDetailsViewModel>> GetBankDetailsList()
+        #endregion
+        #region Bank Details
+        public async Task<List<BankDetailsViewModel>> GetBankDetailsList()
         {
-            throw new NotImplementedException();
+            var list = await _context.BankDetail.Select(x => new BankDetailsViewModel()
+            {
+                Id = x.Id,
+                AcccountNumber = x.AcccountNumber,
+                BankName = x.BankName,
+                QRCode = x.QRCode,
+                Status = x.Status,
+                Branch=x.Branch,
+            }).ToListAsync() ?? new List<BankDetailsViewModel>();
+            return list;
         }
 
-        public Task<BankDetailsViewModel> GetBankDetailsById(int? id)
+        public async Task<BankDetailsViewModel> GetBankDetailsById(int? id)
         {
-            throw new NotImplementedException();
+            var data = await _context.BankDetail.Where(x => x.Id == id).Select(x => new BankDetailsViewModel()
+            {
+                Id = x.Id,
+                BankName= x.BankName,
+                Branch= x.Branch,
+                AcccountNumber= x.AcccountNumber,
+                QRCode= x.QRCode,
+                Status=x.Status,
+            }).FirstOrDefaultAsync() ?? new BankDetailsViewModel();
+            return data;
         }
 
         public Task<bool> InsertUpdateBankDetails(BankDetailsViewModel model)
@@ -258,26 +391,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
         {
             throw new NotImplementedException();
         }
-        #endregion
-        #region Home
-        #endregion
-        #region About
-        #endregion
-        #region Subject
-        #endregion
-        #region Class
-        #endregion
-        #region Section
-        #endregion
-        #region Program
-        #endregion
-        #region Team
-        #endregion
-        #region Student Group
-        #endregion
-        #region Group Assocation
-        #endregion
-        #region Bank Details
         #endregion
     }
 }

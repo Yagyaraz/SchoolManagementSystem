@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SchoolManagementSystem.BusinessLayer.Interface;
+using SchoolManagementSystem.BusinessLayer.Repository;
 using SchoolManagementSystem.Data.Data;
 using System.Text;
 
@@ -53,9 +55,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
-
-
+builder.Services.AddScoped<IStudent, StudentRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

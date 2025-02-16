@@ -23,6 +23,8 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int? Position { get; set; }
         public int? StaffType { get; set; }
         public DateTime? SchoolJoinedDate { get; set; }
+        public bool Status { get; set; }
+
     }
 }
 

@@ -20,5 +20,6 @@ namespace SchoolManagementSystem.Data.Models
         public int? Position { get; set; }
         public int? StaffType { get; set; }
         public DateTime? SchoolJoinedDate { get; set; }
+        public bool Status {  get; set; }
     }
 }

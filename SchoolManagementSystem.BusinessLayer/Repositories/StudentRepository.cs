@@ -4,6 +4,7 @@ using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.Data.Data;
 using SchoolManagementSystem.Data.Data.Entities;
 using SchoolManagementSystem.Data.Model;
+using SchoolManagementSystem.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,8 +22,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
         {
             _context = context;
         }
-
-        public async Task<List<StudentViewModel>> GetAllStudentList()
+        public async Task<Result<List<StudentViewModel>>> GetAllStudentList()
         {
             var student = await (from s in _context.Student
                                  join p in _context.StudentParentsDetails
@@ -45,10 +45,10 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                      StudentPreviousCode = a != null ? a.StudentPreviousCode : null,
                                  }).ToListAsync() ?? new List<StudentViewModel>();
 
-            return student;
+            return Result<List<StudentViewModel>>.Success(student);
         }
 
-        public async Task<StudentViewModel> GetStudentById(int? id)
+        public async Task<Result<StudentViewModel>> GetStudentById(int? id)
         {
             var student = await (from s in _context.Student
                                  join p in _context.StudentParentsDetails
@@ -152,12 +152,12 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                                 PreviousSchoolPassedYear = y.PreviousSchoolPassedYear,
                                 PreviousSchoolPercentage = y.PreviousSchoolPercentage,
                             }).ToList() ?? new List<PreviousSchoolDetailsViewModel>(),
-                                 }).FirstOrDefaultAsync();
+                                 }).FirstOrDefaultAsync() ?? new StudentViewModel(); ;
 
-            return student ?? new StudentViewModel();
+            return Result<StudentViewModel>.Success(student);
         }
 
-        public async Task<bool> InsertUpdateStudent(StudentViewModel model)
+        public async Task<Result<bool>> InsertUpdateStudent(StudentViewModel model)
         {
             using (var transaction = await _context.Database.BeginTransactionAsync())
             {
@@ -167,6 +167,12 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                     {
                         var studentId = model.StudentId;
                         var student = await _context.Student.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
+                        
+                        if(student == null)
+                        {
+                            return Result<bool>.Failure($"student didnot found with {studentId}");
+                        }
+                        
                         if (student != null)
                         {
                             student.StudentId = model.StudentId;
@@ -305,7 +311,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                         }
                         await _context.SaveChangesAsync();
                         await transaction.CommitAsync();
-                        return true;
+                        return Result<bool>.Success(true);
                     }
                     else
                     {
@@ -428,16 +434,16 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                     }
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
-                    return true;
+                    return Result<bool>.Success(true);
                 }
                 catch (Exception ex)
                 {
                     await transaction.RollbackAsync();
-                    return false;
+                    return Result<bool>.Failure("Insert/Update failed!!");
                 }
             }
         }
-        public async Task<bool> DeleteStudent(int? id)
+        public async Task<Result<bool>> DeleteStudent(int? id)
         {
             var student = await _context.Student.Where(x => x.StudentId == id).FirstOrDefaultAsync();
             try
@@ -447,16 +453,16 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                     student.Status = false;
                     _context.Entry(student).State = EntityState.Modified;
                     await _context.SaveChangesAsync();
-                    return true;
+                    return Result<bool>.Success(true);
                 }
                 else
                 {
-                    return false;
+                    return Result<bool>.Failure($"There is no student find for id:{id} ");
                 }
             }
             catch (Exception ex)
             {
-                return false;
+                return Result<bool>.Failure($"There is no student find for id:{id} ");
             }
         }
     }
