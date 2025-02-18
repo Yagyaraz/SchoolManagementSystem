@@ -1,12 +1,3 @@
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.csproj.AssemblyReference.cache
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.AssemblyInfoInputs.cache
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.AssemblyInfo.cs
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.csproj.CoreCompileInputs.cache
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cache
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.RazorAssemblyInfo.cache
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.RazorAssemblyInfo.cs
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.sourcelink.json
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\appsettings.json
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\SchoolManagementSystem.staticwebassets.runtime.json
@@ -306,6 +297,8 @@ D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Azure.Core.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Azure.Identity.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\BeginCollectionItemCore.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Humanizer.dll
+D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\System.Web.Http.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -372,6 +365,7 @@ D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Microsoft.Visu
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\NuGet.Common.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\NuGet.Configuration.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
@@ -588,6 +582,16 @@ D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\SchoolManageme
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\SchoolManagementSystem.Data.dll
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\SchoolManagementSystem.BusinessLayer.pdb
 D:\SchoolManagementSystem\SchoolManagementSystem\bin\Debug\net8.0\SchoolManagementSystem.Data.pdb
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.csproj.AssemblyReference.cache
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.AssemblyInfoInputs.cache
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.AssemblyInfo.cs
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.RazorAssemblyInfo.cache
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.RazorAssemblyInfo.cs
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.sourcelink.json
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\scopedcss\bundle\SchoolManagementSystem.styles.css
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\scopedcss\projectbundle\SchoolManagementSystem.bundle.scp.css
@@ -607,4 +611,3 @@ D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\refint\SchoolM
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.pdb
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.genruntimeconfig.cache
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\ref\SchoolManagementSystem.dll
-D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cs

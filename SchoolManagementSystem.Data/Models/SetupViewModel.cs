@@ -48,6 +48,9 @@ namespace SchoolManagementSystem.Data.Models
         public string ImageForResult { get; set; }
         public string Website { get; set; }
         public bool? Status { get; set; }
+        public string Name {  get; set; }
+        public string Slogan { get; set; }
+
     }
     public class AboutViewModel
     {

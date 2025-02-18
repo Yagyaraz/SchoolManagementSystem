@@ -11,78 +11,78 @@ namespace SchoolManagementSystem.BusinessLayer.Interface
     {
 
         #region Bus route
-        Task<List<BusRouteViewModel>> GetBusRouteList();
-        Task<BusRouteViewModel> GetBusRouteById(int? id);
-        Task<bool>InsertUpdateBusRoute(BusRouteViewModel model);
-        Task<bool> DeleteBusRoute(int? id);
+        Task<Result<List<BusRouteViewModel>>> GetBusRouteList();
+        Task<Result<BusRouteViewModel>> GetBusRouteById(int? id);
+        Task<Result<bool>>InsertUpdateBusRoute(BusRouteViewModel model);
+        Task<Result<bool>> DeleteBusRoute(int? id);
         #endregion
         #region Route Map
-        Task<List<RouteMapViewModel>> GetRouteMapList();
-        Task<RouteMapViewModel> GetRouteMapById(int? id);
-        Task<bool> InsertUpdateRouteMap(RouteMapViewModel model);
-        Task<bool> DeleteRouteMap(int? id);
+        Task<Result<List<RouteMapViewModel>>> GetRouteMapList();
+        Task<Result<RouteMapViewModel>> GetRouteMapById(int? id);
+        Task<Result<bool>> InsertUpdateRouteMap(RouteMapViewModel model);
+        Task<Result<bool>> DeleteRouteMap(int? id);
         #endregion
         #region Home
-        Task<HomeViewModel> GetHome(int? id);
-        Task<bool> InsertUpdateHome(HomeViewModel model);
+        Task<Result<HomeViewModel>> GetHome(int? id);
+        Task<Result<bool>> InsertUpdateHome(HomeViewModel model);
         #endregion
         #region About Us
-        Task<AboutViewModel> GetAboutUs(int? id);
-        Task<bool> InsertUpdateAboutUs(AboutViewModel model);
+        Task<Result<AboutViewModel>> GetAboutUs(int? id);
+        Task<Result<bool>> InsertUpdateAboutUs(AboutViewModel model);
         #endregion
         #region Subject
-        Task<List<SubjectViewModel>> GetSubjectList();
-        Task<SubjectViewModel> GetSubjectById(int? id);
-        Task<bool>InsertUpdateSubject(SubjectViewModel model);
-        Task<bool>DeleteSubject(int? id);
+        Task<Result<List<SubjectViewModel>>> GetSubjectList();
+        Task<Result<SubjectViewModel>> GetSubjectById(int? id);
+        Task<Result<bool>>InsertUpdateSubject(SubjectViewModel model);
+        Task<Result<bool>>DeleteSubject(int? id);
         #endregion
         #region Class
-        Task<List<ClassViewModel>> GetClassList();
-        Task<ClassViewModel> GetClassById(int? id);
-        Task<bool>InsertUpdateClass(ClassViewModel model);
-        Task<bool>DeleteClass(int? id);
+        Task<Result<List<ClassViewModel>>> GetClassList();
+        Task<Result<ClassViewModel>> GetClassById(int? id);
+        Task<Result<bool>>InsertUpdateClass(ClassViewModel model);
+        Task<Result<bool>>DeleteClass(int? id);
         #endregion
         #region Section
-        Task<List<SectionViewModel>> GetSectionList();
-        Task<SectionViewModel> GetSectionById(int? id);
-        Task<bool>InsertUpdateSection(SectionViewModel model);
-        Task<bool>DeleteSection(int? id);
+        Task<Result<List<SectionViewModel>>> GetSectionList();
+        Task<Result<SectionViewModel>> GetSectionById(int? id);
+        Task<Result<bool>>InsertUpdateSection(SectionViewModel model);
+        Task<Result<bool>>DeleteSection(int? id);
         #endregion
         #region Program
-        Task<List<ProgramViewModel>> GetProgramList();
-        Task<ProgramViewModel> GetProgramById(int? id);
-        Task<bool> InsertUpdateProgram(ProgramViewModel model);
-        Task<bool> DeleteProgram(int? id);
+        Task<Result<List<ProgramViewModel>>> GetProgramList();
+        Task<Result<ProgramViewModel>> GetProgramById(int? id);
+        Task<Result<bool>> InsertUpdateProgram(ProgramViewModel model);
+        Task<Result<bool>> DeleteProgram(int? id);
         #endregion
         #region Team
-        Task<List<TeamCategoryViewModel>> GetTeamCategoryList();
-        Task<TeamCategoryViewModel> GetTeamCategoryById(int? id);
-        Task<bool> InsertUpdateTeamCategory(TeamCategoryViewModel model);
-        Task<bool> DeleteTeam(int? id);
+        Task<Result<List<TeamCategoryViewModel>>> GetTeamCategoryList();
+        Task<Result<TeamCategoryViewModel>> GetTeamCategoryById(int? id);
+        Task<Result<bool>> InsertUpdateTeamCategory(TeamCategoryViewModel model);
+        Task<Result<bool>> DeleteTeam(int? id);
         #endregion
         #region Assignment Category
-        Task<List<AssignmentCategoryViewModel>> GetAssignmentCategoryList();
-        Task<AssignmentCategoryViewModel> GetAssignmentCategoryById(int? id);
-        Task<bool> InsertUpdateAssignmentCategory(AssignmentCategoryViewModel model);
-        Task<bool> DeleteAssignmentCategory(int? id);
+        Task<Result<List<AssignmentCategoryViewModel>>> GetAssignmentCategoryList();
+        Task<Result<AssignmentCategoryViewModel>> GetAssignmentCategoryById(int? id);
+        Task<Result<bool>> InsertUpdateAssignmentCategory(AssignmentCategoryViewModel model);
+        Task<Result<bool>> DeleteAssignmentCategory(int? id);
         #endregion
         #region Student Group
-        Task<List<StudentGroupViewModel>> GetStudentGroupList();
-        Task<StudentGroupViewModel> GetStudentGroupById(int? id);
-        Task<bool> InsertUpdateStudentGroup(StudentGroupViewModel model);
-        Task<bool> DeleteStudentGroup(int? id);
+        Task<Result<List<StudentGroupViewModel>>> GetStudentGroupList();
+        Task<Result<StudentGroupViewModel>> GetStudentGroupById(int? id);
+        Task<Result<bool>> InsertUpdateStudentGroup(StudentGroupViewModel model);
+        Task<Result<bool>> DeleteStudentGroup(int? id);
         #endregion
         #region GroupAssocition
-        Task<List<GroupClassAssociationViewModel>> GetGroupClassAssociationList();
-        Task<GroupClassAssociationViewModel> GetGroupClassAssociationById(int? id);
-        Task<bool> InsertUpdateGroupClassAssociation(GroupClassAssociationViewModel model);
-        Task<bool> DeleteGroupClassAssociation(int? id);
+        Task<Result<List<GroupClassAssociationViewModel>>> GetGroupClassAssociationList();
+        Task<Result<GroupClassAssociationViewModel>> GetGroupClassAssociationById(int? id);
+        Task<Result<bool>> InsertUpdateGroupClassAssociation(GroupClassAssociationViewModel model);
+        Task<Result<bool>> DeleteGroupClassAssociation(int? id);
         #endregion
         #region BankDetails
-        Task<List<BankDetailsViewModel>> GetBankDetailsList();
-        Task<BankDetailsViewModel> GetBankDetailsById(int? id);
-        Task<bool> InsertUpdateBankDetails(BankDetailsViewModel model);
-        Task<bool> DeleteBankDetails(int? id);
+        Task<Result<List<BankDetailsViewModel>>> GetBankDetailsList();
+        Task<Result<BankDetailsViewModel>> GetBankDetailsById(int? id);
+        Task<Result<bool>> InsertUpdateBankDetails(BankDetailsViewModel model);
+        Task<Result<bool>> DeleteBankDetails(int? id);
         #endregion
     }
 }

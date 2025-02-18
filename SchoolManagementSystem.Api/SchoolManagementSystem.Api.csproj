@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SchoolManagementSystem.BusinessLayer\SchoolManagementSystem.BusinessLayer.csproj" />
     <ProjectReference Include="..\SchoolManagementSystem.Data\SchoolManagementSystem.Data.csproj" />
+    <ProjectReference Include="..\SchoolManagementSystem\SchoolManagementSystem.csproj" />
   </ItemGroup>
 
 </Project>

@@ -36,7 +36,7 @@ namespace SchoolManagementSystem.Areas.Admin.Controllers
             if(ModelState.IsValid) 
             {
                 var result = await _student.InsertUpdateStudent(model);
-                if (result == true) 
+                if (result.IsSuccess) 
                 {
                     TempData["Msg"] = "Student Inserted Successfully!!";
                     return RedirectToAction("StudentList");
@@ -53,7 +53,7 @@ namespace SchoolManagementSystem.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteStudent(int? id)
         {
             var delete=await _student.DeleteStudent(id);
-            if(delete == true)
+            if(delete.IsSuccess)
             {
                 TempData["Msg"] = "Student Deleted Successfully";
                 return RedirectToAction("StudentList");

@@ -9,9 +9,9 @@ namespace SchoolManagementSystem.BusinessLayer.Interface
 {
     public  interface IEmployee
     {
-        Task<List<EmployeeViewModel>> GetAllEmployeeList();
-        Task<EmployeeViewModel> GetEmployeeById(int? id);
-        Task<bool> InsertUpdateEmployee(EmployeeViewModel model);
-        Task<bool> DeleteEmplyee(int? id);
+        Task<Result<List<EmployeeViewModel>>> GetAllEmployeeList();
+        Task<Result<EmployeeViewModel>> GetEmployeeById(int? id);
+        Task<Result<bool>> InsertUpdateEmployee(EmployeeViewModel model);
+        Task<Result<bool>> DeleteEmplyee(int? id);
     }
 }

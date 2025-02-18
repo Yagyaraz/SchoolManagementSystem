@@ -49,6 +49,8 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public string ImageForResult { get; set; }
         public string Website { get; set; }
         public bool? Status { get; set; }
+        public string Name { get; set; }
+        public string Slogan { get; set; }
     }
     public class About
     {
@@ -57,6 +59,21 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public string ImagePath { get; set; }
         public string Name { get; set; }
         public string Introduction { get; set; }
+        public string VisionStatement { get; set; }
+        public string PrincipalName { get; set; }
+        public string PrincipalImage { get; set; }
+        public string PrincipalSignature { get; set; }
+        public string PrincipalMessage { get; set; }
+        public string RulesRegulation { get; set; }
+        public string Address { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Facebook { get; set; }
+        public string Instagram { get; set; }
+        public string YouTube { get; set; }
+        public string TikTok { get; set; }
+        public string Location { get; set; }
         public bool? Status { get; set; }
     }
     public class Subject

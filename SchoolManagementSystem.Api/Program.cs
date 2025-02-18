@@ -4,15 +4,21 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SchoolManagementSystem.BusinessLayer.Interface;
+using SchoolManagementSystem.BusinessLayer.Repositories;
 using SchoolManagementSystem.BusinessLayer.Repository;
 using SchoolManagementSystem.Data.Data;
+using SchoolManagementSystem.Security;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.EnableEndpointRouting = false;
+    options.Filters.Add(typeof(CustomAuthorizeAttribute));
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -54,8 +60,10 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JsonWebTokenKeys:IssuerSigningKey"]))
     };
 });
-
+builder.Services.AddAuthorization();
 builder.Services.AddScoped<IStudent, StudentRepository>();
+builder.Services.AddScoped<IEmployee, EmployeeRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -72,7 +80,5 @@ app.UseCors(options => options
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
