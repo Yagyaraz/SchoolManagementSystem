@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fe7I3L1RSRUaecw91pufOskgSgf5hxEfDKfdD/yuyyY=",
+  "Hash": "IOMghA+M8mc5e2UbUXepmgNvbCS0TvQv8I7/c4uTh6k=",
   "Source": "SchoolManagementSystem.Api",
   "BasePath": "_content/SchoolManagementSystem.Api",
   "Mode": "Default",
@@ -10586,7 +10586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 11:26:35 GMT"
+          "Value": "Wed, 19 Feb 2025 05:38:57 GMT"
         }
       ],
       "EndpointProperties": [
@@ -10623,7 +10623,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 11:26:35 GMT"
+          "Value": "Wed, 19 Feb 2025 05:38:57 GMT"
         }
       ],
       "EndpointProperties": [
@@ -10996,7 +10996,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 11:26:40 GMT"
+          "Value": "Wed, 19 Feb 2025 05:39:00 GMT"
         },
         {
           "Name": "Link",
@@ -11045,7 +11045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 18 Feb 2025 11:26:40 GMT"
+          "Value": "Wed, 19 Feb 2025 05:39:00 GMT"
         },
         {
           "Name": "Link",

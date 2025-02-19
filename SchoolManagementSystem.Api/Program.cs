@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
+using SchoolManagementSystem.Api.Security;
 using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.BusinessLayer.Repositories;
 using SchoolManagementSystem.BusinessLayer.Repository;
+using SchoolManagementSystem.Data;
 using SchoolManagementSystem.Data.Data;
 using SchoolManagementSystem.Security;
 using System.Text;
@@ -17,7 +20,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(options =>
 {
     options.EnableEndpointRouting = false;
-    options.Filters.Add(typeof(CustomAuthorizeAttribute));
+    options.Filters.Add(typeof(CustomAuthorizationAttributes));
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -65,7 +68,15 @@ builder.Services.AddScoped<IStudent, StudentRepository>();
 builder.Services.AddScoped<IEmployee, EmployeeRepository>();
 
 var app = builder.Build();
-
+#region app Related Configration Use
+app.Logger.LogInformation("Initialize the app");
+//roles and user
+using (var scope = app.Services.CreateScope())
+{
+    CreateRolesAndAdminUser(scope.ServiceProvider);
+    //AddRequiredData(scope.ServiceProvider);
+}
+#endregion
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -82,3 +93,82 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+#region Create Role and initial User Rergistered
+void CreateRolesAndAdminUser(IServiceProvider serviceProvider)
+{
+    var roleNames = new List<string>
+    {
+        UserRoles.Administrator,
+        UserRoles.SuperAdmin,
+        UserRoles.Admin,
+        UserRoles.User,
+        UserRoles.Student,
+        UserRoles.Teacher,
+        UserRoles.Parents,
+    };
+
+    // Creating roles
+    foreach (var role in roleNames)
+    {
+        CreateRole(serviceProvider, role);
+    }
+
+    // Administrator user Setup
+    const string administratorUserEmail = "softech@gmail.com";
+    const string administratorPwd = "Softech@123!@#";
+    AddUserToRole(serviceProvider, new ApplicationUser()
+    {
+        FullName = UserRoles.Administrator,
+        Email = administratorUserEmail,
+        UserName = administratorUserEmail,
+        EmailConfirmed = true,
+        LockoutEnabled = false,
+    }, administratorPwd, UserRoles.Administrator);
+
+    // For Super admin 
+    const string superAdminUserEmail = "superadmin@gmail.com";
+    const string superAdminPwd = "Softech@123";
+    AddUserToRole(serviceProvider, new ApplicationUser()
+    {
+        FullName = UserRoles.SuperAdmin,
+        Email = superAdminUserEmail,
+        UserName = superAdminUserEmail,
+        EmailConfirmed = true,
+    }, superAdminPwd, UserRoles.SuperAdmin);
+}
+
+void CreateRole(IServiceProvider serviceProvider, string roleName)
+{
+    var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+    var roleExists = roleManager.RoleExistsAsync(roleName);
+    roleExists.Wait();
+
+    if (roleExists.Result) return;
+    var roleResult = roleManager.CreateAsync(new IdentityRole(roleName));
+    roleResult.Wait();
+}
+
+void AddUserToRole(IServiceProvider serviceProvider, ApplicationUser user, string userPwd, string roleName)
+{
+    var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+
+    Task<ApplicationUser> checkAppUser = userManager.FindByEmailAsync(user.Email);
+    checkAppUser.Wait();
+
+    ApplicationUser appUser = checkAppUser.Result;
+
+    if (checkAppUser.Result == null)
+    {
+        Task<IdentityResult> taskCreateAppUser = userManager.CreateAsync(user, userPwd);
+        taskCreateAppUser.Wait();
+
+        if (taskCreateAppUser.Result.Succeeded)
+        {
+            appUser = user;
+        }
+    }
+    Task<IdentityResult> newUserRole = userManager.AddToRoleAsync(appUser, roleName);
+    newUserRole.Wait();
+}
+#endregion

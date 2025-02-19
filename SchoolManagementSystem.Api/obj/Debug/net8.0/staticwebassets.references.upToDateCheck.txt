@@ -1,2 +1,10 @@
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
 D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json
+D:\SchoolManagementSystem\SchoolManagementSystem\obj\Debug\net8.0\staticwebassets.build.json

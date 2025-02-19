@@ -65,7 +65,7 @@ namespace SchoolManagementSystem.Api.Controllers
                 var response = new ApiResponse
                 {
                     Status = true,
-                    Message = "After Login Informanation !",
+                    Message = "Login successful! Access granted..!!",
                     Data = new LoginResponse
                     {
                         Name = user.FullName,
@@ -85,7 +85,7 @@ namespace SchoolManagementSystem.Api.Controllers
             {
                 return Ok(new ApiResponse() { Status = false, Message = "User account Deactivated !" });
             }
-            return Ok(new ApiResponse() { Status = false, Message = "Sorry! invalid credential.." });
+            return Ok(new ApiResponse() { Status = false, Message = "Sorry! invalid credentials.." });
         }
     }
 } 

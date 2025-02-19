@@ -57,7 +57,19 @@ namespace SchoolManagementSystem.Data.Data
         public DbSet<BankDetails> BankDetail {  get; set; }
         public DbSet<Class>Classe { get; set; }
         #endregion
+        #region Employee
         public DbSet<Employee> Employee {  get; set; }
-       
+        #endregion
+        #region Course Plan
+        public DbSet<CoursePlan> CoursePlan { get; set; }
+        public DbSet<TeachingMaterial> TeachingMaterial { get; set; }
+        public DbSet<CourseFile> CourseFile { get; set; }
+        public DbSet<LessonPlan> LessonPlan { get; set; }
+        public DbSet<LessonPlanTeachingMaterial> LessonPlanTeachingMaterial { get; set; }
+        public DbSet<LessonPlanCourseFile> LessonPlanCourseFile { get; set; }
+        public DbSet<Chapter> Chapter { get; set; }
+        public DbSet<TeachingMethod> TeachingMethod { get; set; }
+        #endregion
+
     }
 }
