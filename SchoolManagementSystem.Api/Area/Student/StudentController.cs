@@ -6,35 +6,35 @@ using SchoolManagementSystem.Data.Data.Entities;
 using SchoolManagementSystem.Data.Model;
 using System.Net;
 
-namespace SchoolManagementSystem.Api.Area.Admin
+namespace SchoolManagementSystem.Api.Area.Student
 {
     [Route("api/Admin/[controller]")]
     [ApiController]
-    
+
     public class StudentController : Controller
     {
         private readonly IStudent _student;
 
 
-        public StudentController( IStudent student)
+        public StudentController(IStudent student)
         {
-            _student = student;            
+            _student = student;
         }
         [HttpGet("StudentIndex")]
         public async Task<IActionResult> Index()
         {
-            
-            var data=await _student.GetAllStudentList();            
+
+            var data = await _student.GetAllStudentList();
             return Ok(data);
         }
         [HttpGet("GetStudent/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
-            var data= await _student.GetStudentById(id);
+            var data = await _student.GetStudentById(id);
             return Ok(data);
         }
         [HttpPost("CreateStudent")]
-        public async Task<IActionResult>CreateStudent(StudentViewModel model)
+        public async Task<IActionResult> CreateStudent(StudentViewModel model)
         {
             if (!ModelState.IsValid)
             {

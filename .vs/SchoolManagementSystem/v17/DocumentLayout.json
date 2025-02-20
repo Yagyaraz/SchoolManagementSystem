@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "D:\\SchoolManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\area\\courseplan\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\area\\courseplan\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\interface\\icourseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\interface\\icourseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{227D5779-3BF5-4353-B062-8469AEA28C2F}|SchoolManagementSystem\\SchoolManagementSystem.csproj|solutionrelative:schoolmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\interface\\icourseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\interface\\icourseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\area\\courseplan\\courseplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\area\\courseplan\\courseplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\area\\courseplan\\lessonplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\area\\courseplan\\lessonplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.api\\area\\courseplan\\teachingmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF55F5CF-3B89-4F60-B1D0-A823759D0F90}|SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj|solutionrelative:schoolmanagementsystem.api\\area\\courseplan\\teachingmethodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAowEIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T12:02:56.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAiwFEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:40:47.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Models\\LoginModel.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Models\\LoginModel.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Api\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:42:36.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Program.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Api\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:40:41.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CoursePlanRepository.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
-              "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowBQAAAAIAAAAAAAAAA==",
+              "Title": "20250220112223_newmigrationccc.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Data\\Migrations\\20250220112223_newmigrationccc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:29:27.84Z",
+              "WhenOpened": "2025-02-20T11:22:24.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Data\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwEMAAABGAAAAAAAAAA==",
+              "Title": "CoursePlanRepository.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
+              "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:40:20.181Z",
+              "WhenOpened": "2025-02-20T11:20:19.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem\\appsettings.json",
+              "RelativeToolTip": "SchoolManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T11:19:35.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Program.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Program.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwv1QAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:04:03.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T06:09:42.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250220105221_newmigration.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Data\\Migrations\\20250220105221_newmigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:52:21.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ChapterController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\ChapterController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Area\\CoursePlan\\ChapterController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\ChapterController.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Area\\CoursePlan\\ChapterController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:35:50.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\appsettings.json",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\appsettings.json",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T11:19:25.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LessonPlanController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\LessonPlanController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Area\\CoursePlan\\LessonPlanController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\LessonPlanController.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Area\\CoursePlan\\LessonPlanController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:36:16.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoursePlanController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\CoursePlanController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Area\\CoursePlan\\CoursePlanController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\CoursePlanController.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Area\\CoursePlan\\CoursePlanController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:28:39.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ICoursePlan.cs",
               "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Interface\\ICoursePlan.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Interface\\ICoursePlan.cs",
               "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Interface\\ICoursePlan.cs",
               "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Interface\\ICoursePlan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAxwBwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T11:27:48.772Z",
+              "WhenOpened": "2025-02-20T10:12:41.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeachingMethodController.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\TeachingMethodController.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Api\\Area\\CoursePlan\\TeachingMethodController.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Api\\Area\\CoursePlan\\TeachingMethodController.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Api\\Area\\CoursePlan\\TeachingMethodController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T10:36:29.842Z",
               "EditorCaption": ""
             }
           ]

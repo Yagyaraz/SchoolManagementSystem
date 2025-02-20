@@ -3,7 +3,7 @@ using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.Data.Data.Entities;
 using SchoolManagementSystem.Data.Models;
 
-namespace SchoolManagementSystem.Api.Area.Admin
+namespace SchoolManagementSystem.Api.Area.Setup
 {
     [Route("api/Admin/[controller]")]
     [ApiController]

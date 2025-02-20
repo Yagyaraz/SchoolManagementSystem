@@ -58,7 +58,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "AssignmentCategoryIndex",
     "RelativePath": "api/Admin/Setup/AssignmentCategoryIndex",
     "HttpMethod": "GET",
@@ -68,7 +68,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "BankDetailsIndex",
     "RelativePath": "api/Admin/Setup/BankDetailsIndex",
     "HttpMethod": "GET",
@@ -78,7 +78,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "BusRouteIndex",
     "RelativePath": "api/Admin/Setup/BusRouteIndex",
     "HttpMethod": "GET",
@@ -88,7 +88,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "ClassIndex",
     "RelativePath": "api/Admin/Setup/ClassIndex",
     "HttpMethod": "GET",
@@ -98,7 +98,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateAboutUs",
     "RelativePath": "api/Admin/Setup/CreateAboutUs",
     "HttpMethod": "POST",
@@ -114,7 +114,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateAssignmentCategory",
     "RelativePath": "api/Admin/Setup/CreateAssignmentCategory",
     "HttpMethod": "POST",
@@ -130,7 +130,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateBankDetails",
     "RelativePath": "api/Admin/Setup/CreateBankDetails",
     "HttpMethod": "POST",
@@ -146,7 +146,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateBusRoute",
     "RelativePath": "api/Admin/Setup/CreateBusRoute",
     "HttpMethod": "POST",
@@ -162,7 +162,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateClass",
     "RelativePath": "api/Admin/Setup/CreateClass",
     "HttpMethod": "POST",
@@ -178,7 +178,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateGroupClassAssociation",
     "RelativePath": "api/Admin/Setup/CreateGroupClassAssociation",
     "HttpMethod": "POST",
@@ -194,7 +194,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateHome",
     "RelativePath": "api/Admin/Setup/CreateHome",
     "HttpMethod": "POST",
@@ -210,7 +210,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateProgram",
     "RelativePath": "api/Admin/Setup/CreateProgram",
     "HttpMethod": "POST",
@@ -226,7 +226,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateRouteMap",
     "RelativePath": "api/Admin/Setup/CreateRouteMap",
     "HttpMethod": "POST",
@@ -242,7 +242,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateSection",
     "RelativePath": "api/Admin/Setup/CreateSection",
     "HttpMethod": "POST",
@@ -258,7 +258,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateStudentGroup",
     "RelativePath": "api/Admin/Setup/CreateStudentGroup",
     "HttpMethod": "POST",
@@ -274,7 +274,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateSubject",
     "RelativePath": "api/Admin/Setup/CreateSubject",
     "HttpMethod": "POST",
@@ -290,7 +290,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "InsertUpdateTeamCategory",
     "RelativePath": "api/Admin/Setup/CreateTeamCategory",
     "HttpMethod": "POST",
@@ -306,7 +306,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteAssignmentCategory",
     "RelativePath": "api/Admin/Setup/DeleteAssignmentCategory/{id}",
     "HttpMethod": "DELETE",
@@ -322,7 +322,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteBankDetails",
     "RelativePath": "api/Admin/Setup/DeleteBankDetails/{id}",
     "HttpMethod": "DELETE",
@@ -338,7 +338,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteBusRoute",
     "RelativePath": "api/Admin/Setup/DeleteBusRoute/{id}",
     "HttpMethod": "DELETE",
@@ -354,7 +354,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteClass",
     "RelativePath": "api/Admin/Setup/DeleteClass/{id}",
     "HttpMethod": "DELETE",
@@ -370,7 +370,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteGroupClassAssociation",
     "RelativePath": "api/Admin/Setup/DeleteGroupClassAssociation/{id}",
     "HttpMethod": "DELETE",
@@ -386,7 +386,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteProgram",
     "RelativePath": "api/Admin/Setup/DeleteProgram/{id}",
     "HttpMethod": "DELETE",
@@ -402,7 +402,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteRouteMap",
     "RelativePath": "api/Admin/Setup/DeleteRouteMap/{id}",
     "HttpMethod": "DELETE",
@@ -418,7 +418,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteSection",
     "RelativePath": "api/Admin/Setup/DeleteSection/{id}",
     "HttpMethod": "DELETE",
@@ -434,7 +434,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteStudentGroup",
     "RelativePath": "api/Admin/Setup/DeleteStudentGroup/{id}",
     "HttpMethod": "DELETE",
@@ -450,7 +450,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteSubject",
     "RelativePath": "api/Admin/Setup/DeleteSubject/{id}",
     "HttpMethod": "DELETE",
@@ -466,7 +466,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "DeleteTeamCategory",
     "RelativePath": "api/Admin/Setup/DeleteTeamCategory/{id}",
     "HttpMethod": "DELETE",
@@ -482,7 +482,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetAboutUsById",
     "RelativePath": "api/Admin/Setup/GetAboutUsById/{id}",
     "HttpMethod": "GET",
@@ -498,7 +498,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetAssignmentCategoryById",
     "RelativePath": "api/Admin/Setup/GetAssignmentCategoryById/{id}",
     "HttpMethod": "GET",
@@ -514,7 +514,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetBankDetailsById",
     "RelativePath": "api/Admin/Setup/GetBankDetailsById/{id}",
     "HttpMethod": "GET",
@@ -530,7 +530,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetBusRouteById",
     "RelativePath": "api/Admin/Setup/GetBusRouteById/{id}",
     "HttpMethod": "GET",
@@ -546,7 +546,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetClassById",
     "RelativePath": "api/Admin/Setup/GetClassById/{id}",
     "HttpMethod": "GET",
@@ -562,7 +562,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetGroupClassAssociationById",
     "RelativePath": "api/Admin/Setup/GetGroupClassAssociationById/{id}",
     "HttpMethod": "GET",
@@ -578,7 +578,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetHomeById",
     "RelativePath": "api/Admin/Setup/GetHomeById/{id}",
     "HttpMethod": "GET",
@@ -594,7 +594,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetProgramById",
     "RelativePath": "api/Admin/Setup/GetProgramById/{id}",
     "HttpMethod": "GET",
@@ -610,7 +610,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetRouteMapById",
     "RelativePath": "api/Admin/Setup/GetRouteMapById/{id}",
     "HttpMethod": "GET",
@@ -626,7 +626,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetSectionById",
     "RelativePath": "api/Admin/Setup/GetSectionById/{id}",
     "HttpMethod": "GET",
@@ -642,7 +642,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetStudentGroupById",
     "RelativePath": "api/Admin/Setup/GetStudentGroupById/{id}",
     "HttpMethod": "GET",
@@ -658,7 +658,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetSubjectById",
     "RelativePath": "api/Admin/Setup/GetSubjectById/{id}",
     "HttpMethod": "GET",
@@ -674,7 +674,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GetTeamCategoryById",
     "RelativePath": "api/Admin/Setup/GetTeamCategoryById/{id}",
     "HttpMethod": "GET",
@@ -690,7 +690,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "GroupClassAssociationIndex",
     "RelativePath": "api/Admin/Setup/GroupClassAssociationIndex",
     "HttpMethod": "GET",
@@ -700,7 +700,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "ProgramIndex",
     "RelativePath": "api/Admin/Setup/ProgramIndex",
     "HttpMethod": "GET",
@@ -710,7 +710,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "RouteMapInsex",
     "RelativePath": "api/Admin/Setup/RouteMapIndex",
     "HttpMethod": "GET",
@@ -720,7 +720,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "SectionIndex",
     "RelativePath": "api/Admin/Setup/SectionIndex",
     "HttpMethod": "GET",
@@ -730,7 +730,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "StudentGroupIndex",
     "RelativePath": "api/Admin/Setup/StudentGroupIndex",
     "HttpMethod": "GET",
@@ -740,7 +740,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "SubjectIndex",
     "RelativePath": "api/Admin/Setup/SubjectIndex",
     "HttpMethod": "GET",
@@ -750,7 +750,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.SetupController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Setup.SetupController",
     "Method": "TeamCategoryIndex",
     "RelativePath": "api/Admin/Setup/TeamCategoryIndex",
     "HttpMethod": "GET",
@@ -760,7 +760,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.StudentController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Student.StudentController",
     "Method": "CreateStudent",
     "RelativePath": "api/Admin/Student/CreateStudent",
     "HttpMethod": "POST",
@@ -776,7 +776,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.StudentController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Student.StudentController",
     "Method": "DeleteStudent",
     "RelativePath": "api/Admin/Student/DeleteStudent/{id}",
     "HttpMethod": "DELETE",
@@ -792,7 +792,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.StudentController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Student.StudentController",
     "Method": "Details",
     "RelativePath": "api/Admin/Student/GetStudent/{id}",
     "HttpMethod": "GET",
@@ -808,9 +808,241 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.Admin.StudentController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.Student.StudentController",
     "Method": "Index",
     "RelativePath": "api/Admin/Student/StudentIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.ChapterController",
+    "Method": "Index",
+    "RelativePath": "api/CoursePlan/Chapter/ChapterIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.ChapterController",
+    "Method": "InsertUpdateChapter",
+    "RelativePath": "api/CoursePlan/Chapter/CreateChapter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SchoolManagementSystem.Data.Models.ChapterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.ChapterController",
+    "Method": "DeleteChapter",
+    "RelativePath": "api/CoursePlan/Chapter/DeleteChapter/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.ChapterController",
+    "Method": "GetChapterById",
+    "RelativePath": "api/CoursePlan/Chapter/GetChapterById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.CoursePlanController",
+    "Method": "Index",
+    "RelativePath": "api/CoursePlan/CoursePlan/CoursePlanIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.CoursePlanController",
+    "Method": "InsertUpdateCoursePlan",
+    "RelativePath": "api/CoursePlan/CoursePlan/CreateCoursePlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SchoolManagementSystem.Data.Models.CoursePlanViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.CoursePlanController",
+    "Method": "DeleteCoursePlan",
+    "RelativePath": "api/CoursePlan/CoursePlan/DeleteCoursePlan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.CoursePlanController",
+    "Method": "GetCoursePlanById",
+    "RelativePath": "api/CoursePlan/CoursePlan/GetCoursePlanById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "Method": "InsertUpdateLessonPlan",
+    "RelativePath": "api/CoursePlan/LessonPlan/CreateLessonPlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SchoolManagementSystem.Data.Models.LessonPlanViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "Method": "DeleteLessonPlan",
+    "RelativePath": "api/CoursePlan/LessonPlan/DeleteLessonPlan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "Method": "GetLessonPlanById",
+    "RelativePath": "api/CoursePlan/LessonPlan/GetLessonPlanById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "Method": "Index",
+    "RelativePath": "api/CoursePlan/LessonPlan/LessonPlanIndex",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
+    "Method": "InsertUpdateTeachingMethod",
+    "RelativePath": "api/CoursePlan/TeachingMethod/CreateTeachingMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SchoolManagementSystem.Data.Models.TeachingMethodViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
+    "Method": "DeleteTeachingMethod",
+    "RelativePath": "api/CoursePlan/TeachingMethod/DeleteTeachingMethod/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
+    "Method": "GetTeachingMethodById",
+    "RelativePath": "api/CoursePlan/TeachingMethod/GetTeachingMethodById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
+    "Method": "Index",
+    "RelativePath": "api/CoursePlan/TeachingMethod/TeachingMethodIndex",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

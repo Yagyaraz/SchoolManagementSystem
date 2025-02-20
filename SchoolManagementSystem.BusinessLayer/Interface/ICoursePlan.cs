@@ -10,27 +10,27 @@ namespace SchoolManagementSystem.BusinessLayer.Interface
     public interface ICoursePlan
     {
         #region Course Plan
-        public Task<Result<CoursePlanViewModel>> GetCoursePlanList();
+        public Task<Result<List<CoursePlanViewModel>>> GetCoursePlanList();
         public Task<Result<CoursePlanViewModel>>GetCoursePlanById(int? id);
-        public Task<Result<bool>> InertUpdateCoursePlan(CoursePlanViewModel model);
+        public Task<Result<bool>> InsertUpdateCoursePlan(CoursePlanViewModel model);
         public Task<Result<bool>> DeleteCoursePlan(int? id);
         #endregion
         #region Lesson Plan
-        public Task<Result<LessonPlanViewModel>> GetLessonPlanList();
+        public Task<Result<List<LessonPlanViewModel>>> GetLessonPlanList();
         public Task<Result<LessonPlanViewModel>> GetLessonPlanById(int? id);
-        public Task<Result<bool>> InertUpdateLessonPlan(LessonPlanViewModel model);
+        public Task<Result<bool>> InsertUpdateLessonPlan(LessonPlanViewModel model);
         public Task<Result<bool>> DeleteLessonPlan(int? id);
         #endregion
         #region Teaching Method
-        public Task<Result<ChapterViewModel>> GetChapterList();
+        public Task<Result<List<ChapterViewModel>>> GetChapterList();
         public Task<Result<ChapterViewModel>> GetChapterById(int? id);
-        public Task<Result<bool>> InertUpdateChapter(ChapterViewModel model);
+        public Task<Result<bool>> InsertUpdateChapter(ChapterViewModel model);
         public Task<Result<bool>> DeleteChapter(int? id);
         #endregion
         #region Chapter
-        public Task<Result<TeachingMethodViewModel>> GetTeachingMethodList();
+        public Task<Result<List<TeachingMethodViewModel>>> GetTeachingMethodList();
         public Task<Result<TeachingMethodViewModel>> GetTeachingMethodById(int? id);
-        public Task<Result<bool>> InertUpdateTeachingMethod(TeachingMethodViewModel model);
+        public Task<Result<bool>> InsertUpdateTeachingMethod(TeachingMethodViewModel model);
         public Task<Result<bool>> DeleteTeachingMethod(int? id);
         #endregion
     }

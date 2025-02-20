@@ -435,6 +435,34 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.ToTable("BusRoute");
                 });
 
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Chapter", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ChapterTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Class")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LearningHours")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Subject")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Chapter");
+                });
+
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Class", b =>
                 {
                     b.Property<int>("Id")
@@ -452,6 +480,78 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Classe");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.CourseFile", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Caption")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CoursePlanId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("LessonPlanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CoursePlanId");
+
+                    b.HasIndex("LessonPlanId");
+
+                    b.ToTable("CourseFile");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.CoursePlan", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Class")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Code")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Credits")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExpectedOutcome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Subject")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("TeachingDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("TeachingDuration")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CoursePlan");
                 });
 
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.Employee", b =>
@@ -560,6 +660,96 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Home");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.LessonPlan", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Chapter")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Class")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExpectedOutcome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Section")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Subject")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("TeachingDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("TeachingDuration")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TeachingMethods")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LessonPlan");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.LessonPlanCourseFile", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Caption")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LessonPlanId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LessonPlanCourseFile");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.LessonPlanTeachingMaterial", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("LessonPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LessonPlanTeachingMaterial");
                 });
 
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.LocationDetails", b =>
@@ -1049,6 +1239,51 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.ToTable("Subject");
                 });
 
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.TeachingMaterial", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CoursePlanId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("LessonPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Link")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CoursePlanId");
+
+                    b.HasIndex("LessonPlanId");
+
+                    b.ToTable("TeachingMaterial");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.TeachingMethod", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TeachingMethod");
+                });
+
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.TeamCategory", b =>
                 {
                     b.Property<int>("Id")
@@ -1310,6 +1545,38 @@ namespace SchoolManagementSystem.Data.Migrations
                     b.Navigation("State");
                 });
 
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.CourseFile", b =>
+                {
+                    b.HasOne("SchoolManagementSystem.Data.Data.Entities.CoursePlan", "CoursePlan")
+                        .WithMany("CourseFiles")
+                        .HasForeignKey("CoursePlanId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SchoolManagementSystem.Data.Data.Entities.LessonPlan", null)
+                        .WithMany("CourseFiles")
+                        .HasForeignKey("LessonPlanId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("CoursePlan");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.TeachingMaterial", b =>
+                {
+                    b.HasOne("SchoolManagementSystem.Data.Data.Entities.CoursePlan", "CoursePlan")
+                        .WithMany("TeachingMaterials")
+                        .HasForeignKey("CoursePlanId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SchoolManagementSystem.Data.Data.Entities.LessonPlan", null)
+                        .WithMany("TeachingMaterials")
+                        .HasForeignKey("LessonPlanId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("CoursePlan");
+                });
+
             modelBuilder.Entity("SchoolManagementSystem.Data.Data.Palika", b =>
                 {
                     b.HasOne("SchoolManagementSystem.Data.Data.District", "District")
@@ -1319,6 +1586,20 @@ namespace SchoolManagementSystem.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("District");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.CoursePlan", b =>
+                {
+                    b.Navigation("CourseFiles");
+
+                    b.Navigation("TeachingMaterials");
+                });
+
+            modelBuilder.Entity("SchoolManagementSystem.Data.Data.Entities.LessonPlan", b =>
+                {
+                    b.Navigation("CourseFiles");
+
+                    b.Navigation("TeachingMaterials");
                 });
 #pragma warning restore 612, 618
         }

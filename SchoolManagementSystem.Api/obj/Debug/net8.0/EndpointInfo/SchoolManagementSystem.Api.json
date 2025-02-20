@@ -48,6 +48,184 @@
         }
       }
     },
+    "/api/CoursePlan/Chapter/ChapterIndex": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/Chapter/GetChapterById/{id}": {
+      "get": {
+        "tags": [
+          "Chapter"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/Chapter/CreateChapter": {
+      "post": {
+        "tags": [
+          "Chapter"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChapterViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChapterViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChapterViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/Chapter/DeleteChapter/{id}": {
+      "delete": {
+        "tags": [
+          "Chapter"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/CoursePlan/CoursePlanIndex": {
+      "get": {
+        "tags": [
+          "CoursePlan"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/CoursePlan/GetCoursePlanById/{id}": {
+      "get": {
+        "tags": [
+          "CoursePlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/CoursePlan/CreateCoursePlan": {
+      "post": {
+        "tags": [
+          "CoursePlan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CoursePlanViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CoursePlanViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CoursePlanViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/CoursePlan/DeleteCoursePlan/{id}": {
+      "delete": {
+        "tags": [
+          "CoursePlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Admin/Employee/EmployeeIndex": {
       "get": {
         "tags": [
@@ -118,6 +296,95 @@
       "delete": {
         "tags": [
           "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/LessonPlan/LessonPlanIndex": {
+      "get": {
+        "tags": [
+          "LessonPlan"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/LessonPlan/GetLessonPlanById/{id}": {
+      "get": {
+        "tags": [
+          "LessonPlan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/LessonPlan/CreateLessonPlan": {
+      "post": {
+        "tags": [
+          "LessonPlan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonPlanViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonPlanViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LessonPlanViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/LessonPlan/DeleteLessonPlan/{id}": {
+      "delete": {
+        "tags": [
+          "LessonPlan"
         ],
         "parameters": [
           {
@@ -1312,6 +1579,95 @@
           }
         }
       }
+    },
+    "/api/CoursePlan/TeachingMethod/TeachingMethodIndex": {
+      "get": {
+        "tags": [
+          "TeachingMethod"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/TeachingMethod/GetTeachingMethodById/{id}": {
+      "get": {
+        "tags": [
+          "TeachingMethod"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/TeachingMethod/CreateTeachingMethod": {
+      "post": {
+        "tags": [
+          "TeachingMethod"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TeachingMethodViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TeachingMethodViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TeachingMethodViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CoursePlan/TeachingMethod/DeleteTeachingMethod/{id}": {
+      "delete": {
+        "tags": [
+          "TeachingMethod"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1485,6 +1841,33 @@
         },
         "additionalProperties": false
       },
+      "ChapterViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chapterTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "subject": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "class": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "learningHours": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ClassViewModel": {
         "type": "object",
         "properties": {
@@ -1498,6 +1881,90 @@
           },
           "status": {
             "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseFileViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "coursePlanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "caption": {
+            "type": "string",
+            "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CoursePlanViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "teachingDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "teachingDuration": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "subject": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "class": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teachingMaterials": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TeachingMaterialViewModel"
+            },
+            "nullable": true
+          },
+          "courseFiles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CourseFileViewModel"
+            },
+            "nullable": true
+          },
+          "credits": {
+            "type": "string",
+            "nullable": true
+          },
+          "expectedOutcome": {
+            "type": "string",
             "nullable": true
           }
         },
@@ -1622,6 +2089,76 @@
             "nullable": true
           },
           "slogan": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LessonPlanViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "teachingDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "teachingDuration": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "class": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "year": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "section": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "subject": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "chapter": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teachingMaterials": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TeachingMaterialViewModel"
+            },
+            "nullable": true
+          },
+          "courseFiles": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CourseFileViewModel"
+            },
+            "nullable": true
+          },
+          "teachingMethods": {
+            "type": "string",
+            "nullable": true
+          },
+          "expectedOutcome": {
             "type": "string",
             "nullable": true
           }
@@ -2100,6 +2637,38 @@
           },
           "status": {
             "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TeachingMaterialViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "coursePlanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "link": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TeachingMethodViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
             "nullable": true
           }
         },

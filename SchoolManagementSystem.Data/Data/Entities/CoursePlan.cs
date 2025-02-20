@@ -12,9 +12,12 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [Key]
         public int Id { get; set; }
         public string Title { get; set; }
+        public int Subject { get; set; }
+        public int Class { get; set; }
         public DateTime? TeachingDate { get; set; }
         public int? TeachingDuration { get; set; }
         public string Description { get; set; }
+        public string Code { get; set; }
         public List<TeachingMaterial> TeachingMaterials { get; set; }
         public List<CourseFile> CourseFiles { get; set; }
         public string Credits { get; set; }
@@ -48,6 +51,11 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public DateTime? TeachingDate { get; set; }
         public int? TeachingDuration { get; set; }
         public string Description { get; set; }
+        public int Class { get; set; }
+        public int Section { get; set; }
+        public int Subject { get; set; }
+        public int Chapter { get; set; }
+        public int Year { get; set; }
         public List<TeachingMaterial> TeachingMaterials { get; set; }
         public List<CourseFile> CourseFiles { get; set; }
         public string TeachingMethods { get; set; }
@@ -79,6 +87,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int Id { get; set; }
         public string ChapterTitle { get; set; }
         public int Subject { get; set; }
+        public int Class { get; set; }
         public int? LearningHours { get; set; }
         public bool Status { get; set; }
 

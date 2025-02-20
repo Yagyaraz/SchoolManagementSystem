@@ -15,6 +15,9 @@ namespace SchoolManagementSystem.Data.Models
         public DateTime? TeachingDate { get; set; }
         public int? TeachingDuration { get; set; }
         public string Description { get; set; }
+        public string Code { get; set; }
+        public int Subject { get; set; }
+        public int Class { get; set; }
         public List<TeachingMaterialViewModel> TeachingMaterials { get; set; }
         public List<CourseFileViewModel> CourseFiles { get; set; }
         public string Credits { get; set; }
@@ -45,6 +48,11 @@ namespace SchoolManagementSystem.Data.Models
         public DateTime? TeachingDate { get; set; }
         public int? TeachingDuration { get; set; }
         public string Description { get; set; }
+        public int Class { get; set; }
+        public int Year { get; set; }
+        public int Section { get; set; }
+        public int Subject { get; set; }
+        public int Chapter { get; set; }
         public List<TeachingMaterialViewModel> TeachingMaterials { get; set; }
         public List<CourseFileViewModel> CourseFiles { get; set; }
         public string TeachingMethods { get; set; }
@@ -73,6 +81,7 @@ namespace SchoolManagementSystem.Data.Models
         public int Id { get; set; }
         public string ChapterTitle { get; set; }
         public int Subject { get; set; }
+        public int Class { get; set; }
         public int? LearningHours { get; set; }
     }
     public class TeachingMethodViewModel

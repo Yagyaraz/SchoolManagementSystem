@@ -19,7 +19,9 @@ namespace SchoolManagementSystem.Areas.Admin.Controllers
         }
         public async Task<IActionResult> StudentList()
         {
-            return View( await _student.GetAllStudentList());
+            var data = await _student.GetAllStudentList();
+            List<StudentViewModel> students = data.Value;
+            return View(students);
         }
         public async Task<IActionResult> StudentDetail(int? id)
         {
