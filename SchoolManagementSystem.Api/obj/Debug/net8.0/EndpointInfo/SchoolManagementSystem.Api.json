@@ -315,7 +315,7 @@
         }
       }
     },
-    "/api/CoursePlan/LessonPlan/LessonPlanIndex": {
+    "/api/LessonPlan/LessonPlan/LessonPlanIndex": {
       "get": {
         "tags": [
           "LessonPlan"
@@ -327,7 +327,7 @@
         }
       }
     },
-    "/api/CoursePlan/LessonPlan/GetLessonPlanById/{id}": {
+    "/api/LessonPlan/LessonPlan/GetLessonPlanById/{id}": {
       "get": {
         "tags": [
           "LessonPlan"
@@ -350,7 +350,7 @@
         }
       }
     },
-    "/api/CoursePlan/LessonPlan/CreateLessonPlan": {
+    "/api/LessonPlan/LessonPlan/CreateLessonPlan": {
       "post": {
         "tags": [
           "LessonPlan"
@@ -381,7 +381,7 @@
         }
       }
     },
-    "/api/CoursePlan/LessonPlan/DeleteLessonPlan/{id}": {
+    "/api/LessonPlan/LessonPlan/DeleteLessonPlan/{id}": {
       "delete": {
         "tags": [
           "LessonPlan"
@@ -1580,7 +1580,7 @@
         }
       }
     },
-    "/api/CoursePlan/TeachingMethod/TeachingMethodIndex": {
+    "/api/TeachingMethod/TeachingMethod/TeachingMethodIndex": {
       "get": {
         "tags": [
           "TeachingMethod"
@@ -1592,7 +1592,7 @@
         }
       }
     },
-    "/api/CoursePlan/TeachingMethod/GetTeachingMethodById/{id}": {
+    "/api/TeachingMethod/TeachingMethod/GetTeachingMethodById/{id}": {
       "get": {
         "tags": [
           "TeachingMethod"
@@ -1615,7 +1615,7 @@
         }
       }
     },
-    "/api/CoursePlan/TeachingMethod/CreateTeachingMethod": {
+    "/api/TeachingMethod/TeachingMethod/CreateTeachingMethod": {
       "post": {
         "tags": [
           "TeachingMethod"
@@ -1646,7 +1646,7 @@
         }
       }
     },
-    "/api/CoursePlan/TeachingMethod/DeleteTeachingMethod/{id}": {
+    "/api/TeachingMethod/TeachingMethod/DeleteTeachingMethod/{id}": {
       "delete": {
         "tags": [
           "TeachingMethod"
@@ -1945,14 +1945,14 @@
             "type": "integer",
             "format": "int32"
           },
-          "teachingMaterials": {
+          "teachingMaterialList": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/TeachingMaterialViewModel"
             },
             "nullable": true
           },
-          "courseFiles": {
+          "courseFilesList": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/CourseFileViewModel"
@@ -2095,6 +2095,46 @@
         },
         "additionalProperties": false
       },
+      "LessonPlanCourseFileViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lessonPlanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "caption": {
+            "type": "string",
+            "nullable": true
+          },
+          "filePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LessonPlanTeachingMaterialViewModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lessonPlanId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "link": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "LessonPlanViewModel": {
         "type": "object",
         "properties": {
@@ -2140,17 +2180,20 @@
             "type": "integer",
             "format": "int32"
           },
+          "status": {
+            "type": "boolean"
+          },
           "teachingMaterials": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/TeachingMaterialViewModel"
+              "$ref": "#/components/schemas/LessonPlanTeachingMaterialViewModel"
             },
             "nullable": true
           },
           "courseFiles": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/CourseFileViewModel"
+              "$ref": "#/components/schemas/LessonPlanCourseFileViewModel"
             },
             "nullable": true
           },
@@ -2670,6 +2713,9 @@
           "name": {
             "type": "string",
             "nullable": true
+          },
+          "status": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

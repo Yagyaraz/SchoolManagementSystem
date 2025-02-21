@@ -67,6 +67,9 @@ builder.Services.AddAuthorization();
 builder.Services.AddScoped<IStudent, StudentRepository>();
 builder.Services.AddScoped<IEmployee, EmployeeRepository>();
 builder.Services.AddScoped<ICoursePlan, CoursePlanRepository>();
+builder.Services.AddScoped<IChapter, ChapterRepository>();
+builder.Services.AddScoped<ILessonPlan, LessonPlanRepository>();
+builder.Services.AddScoped<ITeachingMethod, TeachingMethodRepository>();
 
 var app = builder.Build();
 #region app Related Configration Use

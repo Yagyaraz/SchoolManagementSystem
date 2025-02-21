@@ -18,8 +18,8 @@ namespace SchoolManagementSystem.Data.Models
         public string Code { get; set; }
         public int Subject { get; set; }
         public int Class { get; set; }
-        public List<TeachingMaterialViewModel> TeachingMaterials { get; set; }
-        public List<CourseFileViewModel> CourseFiles { get; set; }
+        public List<TeachingMaterialViewModel> TeachingMaterialList { get; set; }
+        public List<CourseFileViewModel> CourseFilesList { get; set; }
         public string Credits { get; set; }
         public string ExpectedOutcome { get; set; }
     }
@@ -53,8 +53,9 @@ namespace SchoolManagementSystem.Data.Models
         public int Section { get; set; }
         public int Subject { get; set; }
         public int Chapter { get; set; }
-        public List<TeachingMaterialViewModel> TeachingMaterials { get; set; }
-        public List<CourseFileViewModel> CourseFiles { get; set; }
+        public bool Status { get; set; }
+        public List<LessonPlanTeachingMaterialViewModel> TeachingMaterials { get; set; }
+        public List<LessonPlanCourseFileViewModel> CourseFiles { get; set; }
         public string TeachingMethods { get; set; }
         public string ExpectedOutcome { get; set; }
     }
@@ -89,5 +90,6 @@ namespace SchoolManagementSystem.Data.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
+        public bool Status { get; set; }
     }
 }

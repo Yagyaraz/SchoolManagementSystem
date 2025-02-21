@@ -3,28 +3,28 @@ using SchoolManagementSystem.BusinessLayer.Interface;
 using SchoolManagementSystem.Data.Data.Entities;
 using SchoolManagementSystem.Data.Models;
 
-namespace SchoolManagementSystem.Api.Area.CoursePlan
+namespace SchoolManagementSystem.Api.Area.TeachingMethod
 {
-    [Route("api/CoursePlan/[Controller]")]
+    [Route("api/TeachingMethod/[Controller]")]
     [ApiController]
     public class TeachingMethodController : Controller
     {
-        private readonly ICoursePlan _coursePlan;
+        private readonly ITeachingMethod _TeachingMethod;
 
-        public TeachingMethodController(ICoursePlan coursePlan )
+        public TeachingMethodController(ITeachingMethod TeachingMethod )
         {
-            _coursePlan = coursePlan;
+            _TeachingMethod = TeachingMethod;
         }
         [HttpGet("TeachingMethodIndex")]
         public async Task<IActionResult> Index()
         {
-            var data = await _coursePlan.GetTeachingMethodList();
+            var data = await _TeachingMethod.GetTeachingMethodList();
             return Ok(data);
         }
         [HttpGet("GetTeachingMethodById/{id}")]
         public async Task<IActionResult> GetTeachingMethodById(int? id)
         {
-            var data = await _coursePlan.GetTeachingMethodById(id);
+            var data = await _TeachingMethod.GetTeachingMethodById(id);
             return Ok(data);
         }
         [HttpPost("CreateTeachingMethod")]
@@ -37,14 +37,14 @@ namespace SchoolManagementSystem.Api.Area.CoursePlan
                     .ToDictionary(x => x.Key, x => x.Value.Errors.Select(e => e.ErrorMessage).ToArray());
                 return BadRequest(new { Message = "Validation failed", Errors = errors });
             }
-            var data = await _coursePlan.InsertUpdateTeachingMethod(model);
+            var data = await _TeachingMethod.InsertUpdateTeachingMethod(model);
 
             return Ok(data);
         }
         [HttpDelete("DeleteTeachingMethod/{id}")]
         public async Task<IActionResult> DeleteTeachingMethod(int? id)
         {
-            var data = await _coursePlan.DeleteTeachingMethod(id);
+            var data = await _TeachingMethod.DeleteTeachingMethod(id);
             return Ok(data);
         }
     }

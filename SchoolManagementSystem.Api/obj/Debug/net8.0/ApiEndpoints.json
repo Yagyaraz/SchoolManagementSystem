@@ -934,9 +934,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.LessonPlan.LessonPlanController",
     "Method": "InsertUpdateLessonPlan",
-    "RelativePath": "api/CoursePlan/LessonPlan/CreateLessonPlan",
+    "RelativePath": "api/LessonPlan/LessonPlan/CreateLessonPlan",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -950,9 +950,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.LessonPlan.LessonPlanController",
     "Method": "DeleteLessonPlan",
-    "RelativePath": "api/CoursePlan/LessonPlan/DeleteLessonPlan/{id}",
+    "RelativePath": "api/LessonPlan/LessonPlan/DeleteLessonPlan/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -966,9 +966,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.LessonPlan.LessonPlanController",
     "Method": "GetLessonPlanById",
-    "RelativePath": "api/CoursePlan/LessonPlan/GetLessonPlanById/{id}",
+    "RelativePath": "api/LessonPlan/LessonPlan/GetLessonPlanById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -982,67 +982,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.LessonPlanController",
+    "ContainingType": "SchoolManagementSystem.Api.Area.LessonPlan.LessonPlanController",
     "Method": "Index",
-    "RelativePath": "api/CoursePlan/LessonPlan/LessonPlanIndex",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
-    "Method": "InsertUpdateTeachingMethod",
-    "RelativePath": "api/CoursePlan/TeachingMethod/CreateTeachingMethod",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "SchoolManagementSystem.Data.Models.TeachingMethodViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
-    "Method": "DeleteTeachingMethod",
-    "RelativePath": "api/CoursePlan/TeachingMethod/DeleteTeachingMethod/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
-    "Method": "GetTeachingMethodById",
-    "RelativePath": "api/CoursePlan/TeachingMethod/GetTeachingMethodById/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SchoolManagementSystem.Api.Area.CoursePlan.TeachingMethodController",
-    "Method": "Index",
-    "RelativePath": "api/CoursePlan/TeachingMethod/TeachingMethodIndex",
+    "RelativePath": "api/LessonPlan/LessonPlan/LessonPlanIndex",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1069,6 +1011,64 @@
     "ContainingType": "SchoolManagementSystem.Api.Controllers.AuthenticateController",
     "Method": "Status",
     "RelativePath": "api/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.TeachingMethod.TeachingMethodController",
+    "Method": "InsertUpdateTeachingMethod",
+    "RelativePath": "api/TeachingMethod/TeachingMethod/CreateTeachingMethod",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SchoolManagementSystem.Data.Models.TeachingMethodViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.TeachingMethod.TeachingMethodController",
+    "Method": "DeleteTeachingMethod",
+    "RelativePath": "api/TeachingMethod/TeachingMethod/DeleteTeachingMethod/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.TeachingMethod.TeachingMethodController",
+    "Method": "GetTeachingMethodById",
+    "RelativePath": "api/TeachingMethod/TeachingMethod/GetTeachingMethodById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolManagementSystem.Api.Area.TeachingMethod.TeachingMethodController",
+    "Method": "Index",
+    "RelativePath": "api/TeachingMethod/TeachingMethod/TeachingMethodIndex",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

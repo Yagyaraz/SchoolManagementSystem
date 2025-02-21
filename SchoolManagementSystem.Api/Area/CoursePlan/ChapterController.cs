@@ -8,22 +8,22 @@ namespace SchoolManagementSystem.Api.Area.CoursePlan
     [ApiController]
     public class ChapterController : Controller
     {
-        private readonly ICoursePlan _coursePlan;
+        private readonly IChapter _chapter;
 
-        public ChapterController(ICoursePlan coursePlan)
+        public ChapterController(IChapter chapter)
         {
-            _coursePlan = coursePlan;
+            _chapter = chapter;
         }
         [HttpGet("ChapterIndex")]
         public async Task<IActionResult> Index()
         {
-            var data = await _coursePlan.GetChapterList();
+            var data = await _chapter.GetChapterList();
             return Ok(data);
         }
         [HttpGet("GetChapterById/{id}")]
         public async Task<IActionResult> GetChapterById(int? id)
         {
-            var data = await _coursePlan.GetChapterById(id);
+            var data = await _chapter.GetChapterById(id);
             return Ok(data);
         }
         [HttpPost("CreateChapter")]
@@ -36,14 +36,14 @@ namespace SchoolManagementSystem.Api.Area.CoursePlan
                     .ToDictionary(x => x.Key, x => x.Value.Errors.Select(e => e.ErrorMessage).ToArray());
                 return BadRequest(new { Message = "Validation failed", Errors = errors });
             }
-            var data = await _coursePlan.InsertUpdateChapter(model);
+            var data = await _chapter.InsertUpdateChapter(model);
 
             return Ok(data);
         }
         [HttpDelete("DeleteChapter/{id}")]
         public async Task<IActionResult> DeleteChapter(int? id)
         {
-            var data = await _coursePlan.DeleteChapter(id);
+            var data = await _chapter.DeleteChapter(id);
             return Ok(data);
         }
     }
