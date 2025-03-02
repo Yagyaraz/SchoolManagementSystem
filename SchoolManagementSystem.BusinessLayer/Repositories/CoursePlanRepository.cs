@@ -9,12 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
 namespace SchoolManagementSystem.BusinessLayer.Repositories
 {
     #region Course Plan
-
     public class CoursePlanRepository : ICoursePlan
     {
         private readonly ApplicationDbContext _dbContext;
@@ -205,7 +202,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
     }
     #endregion
     #region Chapter
-
     public class ChapterRepository : IChapter
     {
         private readonly ApplicationDbContext _dbContext;
@@ -512,7 +508,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
     }
     #endregion
     #region Teaching Method
-
     public class TeachingMethodRepository : ITeachingMethod
     {
         private readonly ApplicationDbContext _dbContext;

@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\interface\\ilibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\data\\entities\\courseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\data\\entities\\courseplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\repositories\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\repositories\\libraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{973AB26E-4539-45B1-BE3B-A303D720EFA6}|SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj|solutionrelative:schoolmanagementsystem.businesslayer\\repositories\\courseplanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|d:\\schoolmanagementsystem\\schoolmanagementsystem.data\\models\\libraryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D305CCD-B14B-4539-8271-76C609C21DDD}|SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj|solutionrelative:schoolmanagementsystem.data\\models\\libraryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Data\\Data\\Entities\\Student.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA5wDAAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LibraryViewModel.cs",
+              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Models\\LibraryViewModel.cs",
+              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Models\\LibraryViewModel.cs",
+              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Models\\LibraryViewModel.cs",
+              "RelativeToolTip": "SchoolManagementSystem.Data\\Models\\LibraryViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowC4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T11:34:03.735Z",
+              "WhenOpened": "2025-02-23T05:54:01.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CoursePlan.cs",
-              "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\CoursePlan.cs",
-              "RelativeDocumentMoniker": "SchoolManagementSystem.Data\\Data\\Entities\\CoursePlan.cs",
-              "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.Data\\Data\\Entities\\CoursePlan.cs",
-              "RelativeToolTip": "SchoolManagementSystem.Data\\Data\\Entities\\CoursePlan.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T11:33:58.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LibraryRepository.cs",
               "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\LibraryRepository.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Repositories\\LibraryRepository.cs",
@@ -73,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CoursePlanRepository.cs",
               "DocumentMoniker": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
               "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
               "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
               "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Repositories\\CoursePlanRepository.cs",
-              "ViewState": "AgIAAJYBAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMBAAAAAAAAAAAcwFIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T10:40:47.094Z",
               "EditorCaption": ""
@@ -92,7 +75,7 @@
               "RelativeDocumentMoniker": "SchoolManagementSystem.BusinessLayer\\Interface\\ILibrary.cs",
               "ToolTip": "D:\\SchoolManagementSystem\\SchoolManagementSystem.BusinessLayer\\Interface\\ILibrary.cs",
               "RelativeToolTip": "SchoolManagementSystem.BusinessLayer\\Interface\\ILibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T10:40:42.943Z",
               "EditorCaption": ""
