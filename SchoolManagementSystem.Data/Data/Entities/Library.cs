@@ -13,18 +13,21 @@ namespace SchoolManagementSystem.Data.Data.Entities
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+        public bool Status { get; set; }  
     }
     public class Rack
     {
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+        public bool Status { get; set; }
     }
-    public class BookTye
+    public class BookType
     {
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+         public bool Status { get; set; } 
     }
     public class Book
     {
@@ -59,6 +62,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public int Copies { get; set; } = 1;
 
         public bool CanIssue { get; set; }
+        public bool Status { get; set; }
     }
     public class BookIssue
     {
@@ -81,6 +85,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
 
         [Required]
         public int IssuedToId { get; set; }
+         public bool Status { get; set; } 
     }
     public class Reservation
     {
@@ -91,6 +96,7 @@ namespace SchoolManagementSystem.Data.Data.Entities
         public DateTime Date { get; set; }
         [Required]
         public int StudentName {  get; set; }
+         public bool Status { get; set; } 
     }
     public class Keyword
     {

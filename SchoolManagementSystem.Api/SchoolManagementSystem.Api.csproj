@@ -26,8 +26,4 @@
     <ProjectReference Include="..\SchoolManagementSystem\SchoolManagementSystem.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Area\Library\" />
-  </ItemGroup>
-
 </Project>

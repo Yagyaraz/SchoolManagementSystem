@@ -6,7 +6,7 @@ namespace SchoolManagementSystem.Api.Area.Admin
 {
     [Route("api/Admin/[controller]")]
     [ApiController]
-    public class EmployeeController : Controller
+    public class EmployeeController : ControllerBase
     {
         private readonly IEmployee _employee;
 

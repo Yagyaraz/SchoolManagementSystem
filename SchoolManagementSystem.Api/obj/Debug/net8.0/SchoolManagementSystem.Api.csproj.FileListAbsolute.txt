@@ -606,12 +606,6 @@ D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\scopedcss\
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.development.json
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.SchoolManagementSystem.Api.Microsoft.AspNetCore.StaticWebAssets.props
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.SchoolManagementSystem.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.SchoolManagementSystem.Api.props
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SchoolManagementSystem.Api.props
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SchoolManagementSystem.Api.props
-D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.pack.json
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\SchoolMa.C3D4A285.Up2Date
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\SchoolManagementSystem.Api.dll
@@ -619,3 +613,8 @@ D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\refint\Sch
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\SchoolManagementSystem.Api.pdb
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\SchoolManagementSystem.Api.genruntimeconfig.cache
 D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\ref\SchoolManagementSystem.Api.dll
+D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\SchoolManagementSystem\SchoolManagementSystem.Api\obj\Debug\net8.0\staticwebassets.build.json.cache

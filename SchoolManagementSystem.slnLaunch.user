@@ -5,6 +5,18 @@
       {
         "Path": "SchoolManagementSystem\\SchoolManagementSystem.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "SchoolManagementSystem.BusinessLayer\\SchoolManagementSystem.BusinessLayer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SchoolManagementSystem.Data\\SchoolManagementSystem.Data.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SchoolManagementSystem.Api\\SchoolManagementSystem.Api.csproj",
+        "Action": "Start"
       }
     ]
   }

@@ -34,7 +34,6 @@ namespace SchoolManagementSystem.Data.Models
         public int Pages { get; set; }
         public string Edition { get; set; }
         public string Language { get; set; }
-        public int CountryId { get; set; }
         public string MaterialType { get; set; }
         public int Copies { get; set; } = 1;
         public bool CanIssue { get; set; }

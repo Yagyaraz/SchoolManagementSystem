@@ -15,7 +15,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repositories
     public class SetupRepository : ISetup
     {
         private readonly ApplicationDbContext _context;
-
         public SetupRepository(ApplicationDbContext context)
         {
             _context = context;

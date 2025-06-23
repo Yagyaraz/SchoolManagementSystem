@@ -186,7 +186,7 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             student.StudentImage = model.StudentImage;
                             student.PhoneNumber = model.PhoneNumber;
                             student.Nationality = model.Nationality;
-                            student.Status =/* model.Status*/ true;
+                            student.Status = true;
                             student.AdmittedBy = model.AdmittedBy;
                             student.AdmittedDate = model.AdmittedDate;
                             student.CreateddBy = model.UpdatedBy;
@@ -251,7 +251,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                         var academicInfo = await _context.StudentAcademicInfo.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
                         if (academicInfo != null)
                         {
-                            //academicInfo.Id = model.Id;
                             academicInfo.StudentId = studentId;
                             academicInfo.Class = model.Class;
                             academicInfo.Section = model.Section;
@@ -274,7 +273,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                         var otherDetails = await _context.StudentOtherDetails.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
                         if (otherDetails != null)
                         {
-                            //otherDetails.Id = model.Id;
                             otherDetails.StudentId = studentId;
                             otherDetails.Religion = model.Religion;
                             otherDetails.Ethnicity = model.Ethnicity;
@@ -296,7 +294,6 @@ namespace SchoolManagementSystem.BusinessLayer.Repository
                             var previousSchoolDetails = await _context.PreviousSchoolDetails.Where(x => x.StudentId == model.StudentId).FirstOrDefaultAsync();
                             if (previousSchoolDetails != null)
                             {
-                                //previousSchoolDetails.Id = model.Id;
                                 previousSchoolDetails.StudentId = studentId;
                                 previousSchoolDetails.PreviousSchoolName = item.PreviousSchoolName;
                                 previousSchoolDetails.PreviousSchoolLevel = item.PreviousSchoolLevel;

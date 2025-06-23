@@ -3204,7 +3204,7 @@
         },
         "runtime": {
           "SchoolManagementSystem.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
@@ -3220,7 +3220,7 @@
         },
         "runtime": {
           "SchoolManagementSystem.BusinessLayer.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
@@ -3237,7 +3237,7 @@
         },
         "runtime": {
           "SchoolManagementSystem.Data.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },

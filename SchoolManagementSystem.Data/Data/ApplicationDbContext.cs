@@ -70,6 +70,16 @@ namespace SchoolManagementSystem.Data.Data
         public DbSet<Chapter> Chapter { get; set; }
         public DbSet<TeachingMethod> TeachingMethod { get; set; }
         #endregion
+        #region Library
+        public DbSet<Book> Book { get; set; }
+        public DbSet<Room> Room { get; set; }
+        public DbSet<BookType> BookType { get; set; }
+        public DbSet<Rack> Rack { get; set; }
+        public DbSet<BookIssue> BookIssue { get; set; }
+        public DbSet<Reservation> Reservation { get; set; }
+        public DbSet<Keyword> Keyword { get; set; }
+        public DbSet<Author> Author { get; set; }
+        #endregion
 
     }
 }
